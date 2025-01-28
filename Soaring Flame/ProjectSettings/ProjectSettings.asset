@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: DaRangers
   productName: Soaring Flame
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -756,7 +756,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: bf01d19d-bd1c-4da1-961a-8850847845e7
   framebufferDepthMemorylessMode: 0
