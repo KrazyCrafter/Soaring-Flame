@@ -1,28 +1,64 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class CameraMover : MonoBehaviour
+public class PlayerMover : MonoBehaviour
 {
     private float moveX, moveY;
     public float baseSpeed;
 
-    private Transform cameraTransform;
-
-    private Rigidbody cameraRigidbody;
+    private UnityEngine.Vector3 playerPosOrigin;
+    public PlayerPosBounderies playerBounderies;
+    private Transform playerTransform;
+    private Rigidbody playerRigidbody;
 
     // Start is called before the first frame update
     void Start()
     {
-        cameraTransform = GetComponent<Transform>();
-        cameraRigidbody = GetComponent<Rigidbody>();
+        playerTransform = GetComponent<Transform>();
+        playerPosOrigin = playerTransform.position;
+        playerBounderies = new PlayerPosBounderies(17f, 5f);
+        playerRigidbody = GetComponent<Rigidbody>();
     }
 
     void FixedUpdate()
     {
         Movement();
+        CheckPlayerPosition();
+    }
+
+    private void CheckPlayerPosition()
+    {
+        if(Math.Abs(playerTransform.position.x - playerPosOrigin.x) > playerBounderies.Position.x)
+        {
+            if(playerTransform.position.x > playerPosOrigin.x)
+            {
+                // Debug.Log("x -> +\n" + playerTransform.position);
+                playerTransform.position = new UnityEngine.Vector3(playerPosOrigin.x + playerBounderies.Position.x, playerTransform.position.y, playerTransform.position.z);
+            }
+            else 
+            {
+                // Debug.Log("x -> -\n" + playerTransform.position);
+                playerTransform.position = new UnityEngine.Vector3(playerPosOrigin.x - playerBounderies.Position.x, playerTransform.position.y, playerTransform.position.z);
+            }
+        }
+
+        if(Math.Abs(playerTransform.position.z - playerPosOrigin.z) > playerBounderies.Position.z)
+        {
+            if(playerTransform.position.z > playerPosOrigin.z)
+            {
+                // Debug.Log("z -> +\n" + playerTransform.position);
+                playerTransform.position = new UnityEngine.Vector3(playerTransform.position.x, playerTransform.position.y, playerPosOrigin.z + playerBounderies.Position.z);
+            }
+            else 
+            {
+                // Debug.Log("z -> -\n" + playerTransform.position);
+                playerTransform.position = new UnityEngine.Vector3(playerTransform.position.x, playerTransform.position.y, playerPosOrigin.z - playerBounderies.Position.z);
+            }
+        }
     }
 
     void OnMove(InputValue moveValue) 
@@ -35,8 +71,23 @@ public class CameraMover : MonoBehaviour
 
     private void Movement()
     {
-        UnityEngine.Vector3 movement = cameraTransform.forward * moveY + cameraTransform.right * moveX;
+        UnityEngine.Vector3 movement = playerTransform.forward * moveY + playerTransform.right * moveX;
 
-        cameraRigidbody.AddForce(baseSpeed * movement, ForceMode.Force);
+        playerRigidbody.AddForce(baseSpeed * movement, ForceMode.Force);
     }
+
+    private void Rotation()
+    {
+
+    }
+}
+public class PlayerPosBounderies 
+{
+    private UnityEngine.Vector3 position;
+    public PlayerPosBounderies(float x, float z)
+    {
+        position = new UnityEngine.Vector3(x, 0.0f, z);        
+    }
+
+    public UnityEngine.Vector3 Position => position;
 }
