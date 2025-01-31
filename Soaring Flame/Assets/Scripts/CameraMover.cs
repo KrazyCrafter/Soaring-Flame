@@ -10,23 +10,29 @@ public class PlayerMover : MonoBehaviour
     private float moveX, moveY;
     public float baseSpeed;
 
+    private float rotateY;
+    public float sensitivity;
+    private float yRotation;
+
     private UnityEngine.Vector3 playerPosOrigin;
     public PlayerPosBounderies playerBounderies;
     private Transform playerTransform;
     private Rigidbody playerRigidbody;
+
 
     // Start is called before the first frame update
     void Start()
     {
         playerTransform = GetComponent<Transform>();
         playerPosOrigin = playerTransform.position;
-        playerBounderies = new PlayerPosBounderies(17f, 5f);
+        playerBounderies = new PlayerPosBounderies(20f, 12f);
         playerRigidbody = GetComponent<Rigidbody>();
     }
 
     void FixedUpdate()
     {
         Movement();
+        Rotation();
         CheckPlayerPosition();
     }
 
@@ -69,6 +75,13 @@ public class PlayerMover : MonoBehaviour
         moveY = moveVector.y;
     }
 
+    void OnRotate(InputValue rotateValue)
+    {
+       UnityEngine.Vector2 rotateVector = rotateValue.Get<UnityEngine.Vector2>();
+
+        rotateY = rotateVector.y * sensitivity;
+    }
+
     private void Movement()
     {
         UnityEngine.Vector3 movement = playerTransform.forward * moveY + playerTransform.right * moveX;
@@ -78,7 +91,9 @@ public class PlayerMover : MonoBehaviour
 
     private void Rotation()
     {
+        yRotation += rotateY;
 
+        playerTransform.rotation = UnityEngine.Quaternion.Euler(0.0f, yRotation, 0.0f);
     }
 }
 public class PlayerPosBounderies 
