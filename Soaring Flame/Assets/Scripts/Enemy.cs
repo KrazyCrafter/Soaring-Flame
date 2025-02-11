@@ -27,6 +27,7 @@ public class Enemy : MonoBehaviour
     {
         agent.destination = EnemyBase.transform.position;
         HP = MaxHP;
+        //V.Enemies.Add(gameObject);
     }
 
     // Update is called once per frame

@@ -64,6 +64,8 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
     <Compile Include="Assets\Scripts\CameraMover.cs" />
+    <Compile Include="Assets\Scripts\TurretTower.cs" />
+    <Compile Include="Assets\Scripts\CannonTower.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

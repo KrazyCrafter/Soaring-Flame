@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7277631931702181884}
   - component: {fileID: 4109711221181885576}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84,6 +84,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1838263245835991013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1579646690708072151}
+  m_Layer: 0
+  m_Name: FireSpot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1579646690708072151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838263245835991013}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -4.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5175110989618703810}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &5019211748431695657
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,6 +198,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &5180194665916468078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8564395792823649716}
+  m_Layer: 0
+  m_Name: FireSpot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8564395792823649716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5180194665916468078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -4.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5175110989618703810}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &6984169636669637368
 GameObject:
   m_ObjectHideFlags: 0
@@ -176,6 +238,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7430345550403628208}
+  - component: {fileID: 4849716298833845532}
+  - component: {fileID: 4527014462287388385}
   m_Layer: 0
   m_Name: rapiblast
   m_TagString: Untagged
@@ -201,6 +265,54 @@ Transform:
   - {fileID: 5357521186770785268}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4849716298833845532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6984169636669637368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0228cf9506dc644489f71a7ed85dbbeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 0}
+  Projectile: {fileID: 0}
+  AttackSpot: {fileID: 1579646690708072151}
+  Range: 20
+  attackTimer: 0.25
+  TargetPos: {x: 0, y: 0, z: 0}
+  Weapon: {fileID: 1501512083768616360}
+  turnSpeed: 20
+  FireSound: {fileID: 0}
+  Doing: 0
+  Charged: 0
+  Counter: 0
+--- !u!114 &4527014462287388385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6984169636669637368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0228cf9506dc644489f71a7ed85dbbeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Target: {fileID: 0}
+  Projectile: {fileID: 0}
+  AttackSpot: {fileID: 8564395792823649716}
+  Range: 20
+  attackTimer: 0.25
+  TargetPos: {x: 0, y: 0, z: 0}
+  Weapon: {fileID: 1501512083768616360}
+  turnSpeed: 20
+  FireSound: {fileID: 0}
+  Doing: 0
+  Charged: 0
+  Counter: 0
 --- !u!1 &8656263249253916112
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,7 +343,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0.000027813641}
   m_LocalScale: {x: 0.8116864, y: 0.7365037, z: 0.70392954}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1579646690708072151}
+  - {fileID: 8564395792823649716}
   m_Father: {fileID: 7131047267687215799}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4642603335476305954
