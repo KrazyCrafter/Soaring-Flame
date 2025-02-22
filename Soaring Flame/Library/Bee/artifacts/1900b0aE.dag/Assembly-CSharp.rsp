@@ -363,6 +363,7 @@
 "Assets/Scripts/CannonTower.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/LookAtPlayer.cs"
+"Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Tower.cs"
 "Assets/Scripts/TurretTower.cs"
 -langversion:9.0
