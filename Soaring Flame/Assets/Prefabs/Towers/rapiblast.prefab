@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7277631931702181884}
   - component: {fileID: 4109711221181885576}
   m_Layer: 0
-  m_Name: Turret
+  m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,14 +26,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501512083768616360}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000057601163, y: 0.7071068, z: 0.7071068, w: -0.000000057601163}
-  m_LocalPosition: {x: -0, y: 3.8907738, z: 0.0000000907899}
-  m_LocalScale: {x: 1, y: 1, z: 0.8229123}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 3.8907738, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.82291234}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5175110989618703810}
-  m_Father: {fileID: 7430345550403628208}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 1647999747609798816}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &7277631931702181884
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -239,7 +239,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7430345550403628208}
   - component: {fileID: 4849716298833845532}
-  - component: {fileID: 4527014462287388385}
   m_Layer: 0
   m_Name: rapiblast
   m_TagString: Untagged
@@ -260,7 +259,7 @@ Transform:
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7131047267687215799}
+  - {fileID: 1647999747609798816}
   - {fileID: 8740645797572669255}
   - {fileID: 5357521186770785268}
   m_Father: {fileID: 0}
@@ -278,38 +277,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 0}
-  Projectile: {fileID: 0}
+  Projectile: {fileID: 1253211470187916939, guid: f0c1cfe4c4e724a44b71c6235f17d5b8, type: 3}
   AttackSpot: {fileID: 1579646690708072151}
   Range: 20
   attackTimer: 0.25
   TargetPos: {x: 0, y: 0, z: 0}
-  Weapon: {fileID: 1501512083768616360}
+  Weapon: {fileID: 9127525728423146615}
   turnSpeed: 20
   FireSound: {fileID: 0}
-  Doing: 0
-  Charged: 0
-  Counter: 0
---- !u!114 &4527014462287388385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6984169636669637368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0228cf9506dc644489f71a7ed85dbbeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Target: {fileID: 0}
-  Projectile: {fileID: 0}
-  AttackSpot: {fileID: 8564395792823649716}
-  Range: 20
-  attackTimer: 0.25
-  TargetPos: {x: 0, y: 0, z: 0}
-  Weapon: {fileID: 1501512083768616360}
-  turnSpeed: 20
-  FireSound: {fileID: 0}
+  Damage: 5
   Doing: 0
   Charged: 0
   Counter: 0
@@ -481,3 +457,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &9127525728423146615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1647999747609798816}
+  m_Layer: 0
+  m_Name: Turret
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1647999747609798816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9127525728423146615}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7131047267687215799}
+  m_Father: {fileID: 7430345550403628208}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
