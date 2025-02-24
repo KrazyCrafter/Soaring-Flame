@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.55f1 (9f374180d209) revision 10434369'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32438 MB
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 15747 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.55f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Krazy/OneDrive/Documents/GitHub/Soaring-Flame/Soaring Flame
+C:/Users/Admin/Documents/GitHub/Soaring-Flame/Soaring Flame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53757
-Successfully changed project path to: C:/Users/Krazy/OneDrive/Documents/GitHub/Soaring-Flame/Soaring Flame
-C:/Users/Krazy/OneDrive/Documents/GitHub/Soaring-Flame/Soaring Flame
+49482
+Successfully changed project path to: C:/Users/Admin/Documents/GitHub/Soaring-Flame/Soaring Flame
+C:/Users/Admin/Documents/GitHub/Soaring-Flame/Soaring Flame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,69 +49,67 @@ C:/Users/Krazy/OneDrive/Documents/GitHub/Soaring-Flame/Soaring Flame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [62636]  Target information:
+Player connection [22784]  Target information:
 
-Player connection [62636]  * "[IP] 10.78.148.47 [Port] 0 [Flags] 2 [Guid] 1996309337 [EditorId] 1996309337 [Version] 1048832 [Id] WindowsEditor(7,Camdens_Comp) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [22784]  * "[IP] 10.101.155.31 [Port] 0 [Flags] 2 [Guid] 1192471706 [EditorId] 1192471706 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-50C2OC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [62636] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [62636] Host joined alternative multi-casting on [225.0.0.222:34997]...
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 27.09 ms, found 3 plugins.
+Player connection [22784] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22784] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 18.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.55f1 (9f374180d209)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Krazy/OneDrive/Documents/GitHub/Soaring-Flame/Soaring Flame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Documents/GitHub/Soaring-Flame/Soaring Flame/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24e0)
-    Vendor:   NVIDIA
-    VRAM:     8018 MB
-    Driver:   32.0.15.7242
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     7873 MB
+    Driver:   31.0.101.2121
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.55f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.029874 seconds.
-- Loaded All Assemblies, in  1.224 seconds
-Native extension for UWP target not found
+Registered in 0.016376 seconds.
+- Loaded All Assemblies, in  0.690 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.714 seconds
-Domain Reload Profiling: 3931ms
-	BeginReloadAssembly (333ms)
+- Finished resetting the current domain, in  0.535 seconds
+Domain Reload Profiling: 1222ms
+	BeginReloadAssembly (213ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (106ms)
-	RebuildNativeTypeToScriptingClass (50ms)
-	initialDomainReloadingComplete (220ms)
-	LoadAllAssembliesAndSetupDomain (506ms)
-		LoadAssemblies (326ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (261ms)
+		LoadAssemblies (210ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (500ms)
-			TypeCache.Refresh (486ms)
-				TypeCache.ScanAssembly (423ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (2715ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (256ms)
+				TypeCache.ScanAssembly (232ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (536ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2021ms)
+		SetupLoadedEditorAssemblies (443ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (153ms)
-			SetLoadedEditorAssemblies (34ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (27ms)
-			ProcessInitializeOnLoadAttributes (1477ms)
-			ProcessInitializeOnLoadMethodAttributes (331ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,51 +118,50 @@ Domain Reload Profiling: 3931ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.498 seconds
-Native extension for UWP target not found
+- Loaded All Assemblies, in  1.336 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.329 seconds
-Domain Reload Profiling: 6824ms
-	BeginReloadAssembly (644ms)
+- Finished resetting the current domain, in  1.372 seconds
+Domain Reload Profiling: 2704ms
+	BeginReloadAssembly (299ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (27ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (140ms)
-	RebuildNativeTypeToScriptingClass (67ms)
-	initialDomainReloadingComplete (204ms)
-	LoadAllAssembliesAndSetupDomain (2426ms)
-		LoadAssemblies (1698ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (863ms)
+		LoadAssemblies (629ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1137ms)
-			TypeCache.Refresh (974ms)
-				TypeCache.ScanAssembly (885ms)
-			ScanForSourceGeneratedMonoScriptInfo (113ms)
-			ResolveRequiredComponents (45ms)
-	FinalizeReload (3343ms)
+		AnalyzeDomain (416ms)
+			TypeCache.Refresh (361ms)
+				TypeCache.ScanAssembly (331ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1373ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2534ms)
+		SetupLoadedEditorAssemblies (1089ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (57ms)
-			SetLoadedEditorAssemblies (19ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (307ms)
-			ProcessInitializeOnLoadAttributes (2024ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
-			AfterProcessingInitializeOnLoad (29ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (891ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.45 seconds
-Refreshing native plugins compatible for Editor in 20.02 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 5.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3904 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (104.2 KB). Loaded Objects now: 4389.
-Memory consumption went from 156.7 MB to 156.6 MB.
-Total: 16.917000 ms (FindLiveObjects: 0.680200 ms CreateObjectMapping: 0.456300 ms MarkObjects: 15.417000 ms  DeleteObjects: 0.359500 ms)
+Unloading 3949 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (112.6 KB). Loaded Objects now: 4434.
+Memory consumption went from 156.6 MB to 156.5 MB.
+Total: 7.011300 ms (FindLiveObjects: 0.429900 ms CreateObjectMapping: 0.368400 ms MarkObjects: 6.036900 ms  DeleteObjects: 0.174800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,26 +179,1655 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 833190.551249 seconds.
-  path: Assets/Materials/ChargingGems.mat
-  artifactKey: Guid(732c0ce4f85a6fe40918a8f5cd28dcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ChargingGems.mat using Guid(732c0ce4f85a6fe40918a8f5cd28dcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '18787d5904b8883786d3402480ab5219') in 1.715637 seconds
+  Time since last request: 866761.900319 seconds.
+  path: Assets/Models/New .fbx/podSeedling.fbx
+  artifactKey: Guid(32eeabec5eba4354a8057f9878068dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/New .fbx/podSeedling.fbx using Guid(32eeabec5eba4354a8057f9878068dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a1afdc621433448823b0831cb0025dda') in 0.217502 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 25
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Materials/BlobCcyan.mat
-  artifactKey: Guid(93879f8b21846df489d5de14b977be9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/BlobCcyan.mat using Guid(93879f8b21846df489d5de14b977be9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '62552b0e56eb4c2ef25e8145b14f45f2') in 0.290007 seconds
+  Time since last request: 52.881258 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/blobNormal 1.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/blobNormal 1.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '78414be2786888c4f291f3f990962241') in 0.029357 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 13.877061 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/blobNormal 1.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/blobNormal 1.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eb708b963d1e4b31e4faee708d4ba8c2') in 0.021970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 10.190357 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '697fe0af71182552207f3fc2fcb9eebe') in 0.018771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 28.531629 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a92c728c15d1c8f2621e2c7bc0c8fd6f') in 0.024654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 6.476553 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aab5d6cec595d4aef9f915d7e16fdd17') in 0.021273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 5.624464 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '80338d982033bad83c279cbd40561636') in 0.020667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 1.739637 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '185d71015898a3530f1c6b82e5283df2') in 0.021275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 1.224689 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2e33a62a22ece0b9439823c44c5dbec2') in 0.019903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 9.496538 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e6e460aedba14669b6bfea901cdff1a6') in 0.023839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 17.170189 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8f009516e797fa71361101aa269812c8') in 0.019938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 6.267055 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49b62228142cbb241cfe648313b558ec') in 0.020688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 5.270309 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '89e2b5999e9441b13387bc3f77e78f6b') in 0.020210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.231822 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a8055ec608ab854c1f7e6696d020a236') in 0.021908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 11.601560 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '911825dd9b5766990f464a17e7c7f0fa') in 0.022980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 18.366530 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd412cf3f0481997cf8ecd8c62445ad0a') in 0.023601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.429049 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b3d2507da457a5a21822afee2e43dca6') in 0.025100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.785169 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6cfda5f794ebe9f79406a633cb725a47') in 0.019204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 26.541763 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '647f446f382fd3027311e69dec486781') in 0.021018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 3.881009 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd0af0556f18f3e79296a73663fd36f0a') in 0.025398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.635171 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7a01d3049b64ec1560cb7347807b4914') in 0.020571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 6.659493 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eaae9464eea3b238ac63e52f388e3162') in 0.020761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.709273 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aad559bb3b4473449cd560db18bda5a4') in 0.024298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 7.424360 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '154984c3910b5fe562c20d71e58ffb2b') in 0.021458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 6.688007 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ae92050f106b4d0c035beb8e40c587d3') in 0.024799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 0.965877 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd024f253fe87b99c76125d70add124e5') in 0.019711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.027146 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd943013e343ff24c05614446bf1e4b72') in 0.021784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 11.200028 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5e1ae54200238be276222f48a9999aea') in 0.022804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 5.092910 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '17718c729a584c488598cf6d1682f1cd') in 0.023854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 10.575960 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '62e3cb33d41a7a8e6160c4ca662c8b4c') in 0.020814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.319043 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '810d2ff4d8c41c51f9f078b513e4410d') in 0.022659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.767273 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '70499224fba48a4601218d889a7b9465') in 0.020550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 3.696942 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6bc0bbe49b0897132d8eedb12e602844') in 0.021046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.022702 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7e12fddd1a348ed982625618ffba7dfa') in 0.022820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.432971 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1cdd4dc821172c1dc8f9269492bdaa02') in 0.019514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 6.553632 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '50cbea4e84443448342f4839422c3042') in 0.023434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 10.707215 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '38eb772f89e84568d844f47407e8013d') in 0.020920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.207536 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '07acffefd1e4aa3d1be63cafef55e65b') in 0.023785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.512623 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a0da1184e9ccdfd378d9404082a25ec') in 0.024375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.594781 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f9b05241d1a5f81582f8a9610bb86157') in 0.023761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 5.665953 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c68c1ba0690238dfdace37689f1b4218') in 0.022058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 6.100899 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '895fd00e22650e377d678380eb68b5df') in 0.028387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 8.695671 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0ae8d77669480fc7f54663b8c7653e19') in 0.022162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 1.407028 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '86163ad58f0a1e3f59f971ef589abc39') in 0.020101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 1.822655 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9545e63a638854d472e4c7101f9577d6') in 0.022027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.414028 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3f9075492c075fdf727707b9336dd30b') in 0.020459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.845589 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7d0a37c9dd219aac1ca8bbbb32580bb3') in 0.020652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 5.468598 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7543ce55c828509ca8e952ceb8b4ef4c') in 0.020506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.054616 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e0ac74f555b073244e7e7ea80c110019') in 0.022029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.688227 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fc93089c65992b7f631ec954e657fa66') in 0.025196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.192822 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ead789aec38d47d8f4745de3e53d7e8f') in 0.021699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 6.077015 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8e61db52ce3a0dbd83a0b9fc2cae0d2e') in 0.019931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 6.998135 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8f0be7fb71dc41dcbc49657781d19cd9') in 0.021067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 5.023147 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '138407406146588569b8fcb7d53a2385') in 0.036444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 8.882729 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '12e45d89ce5858cfcfb5b06a5b3910b9') in 0.026380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 46.510757 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b3e977aa8eacc02021cc7c51b62b0c91') in 0.022868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 6.477625 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8c07eca8c7bc8f39695f917c770c2530') in 0.025925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.278609 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fe4fc1eedda0f29e7a0e5b3eb61b960b') in 0.021297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.566828 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4f86205aa133a84f543bc67100b0fcb8') in 0.021357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 14.650453 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5c38747369b800343505dbbbf8515d3f') in 0.026219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 8.336907 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6a036006694a21416c9caaa39c63d450') in 0.025017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 1.434343 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bfb1ee4af33b2d32371f2f5a1ef87ef5') in 0.024696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 7.657514 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '855e8490c5f8ba241bf23808206a0ef9') in 0.023166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.863224 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ebdf657b1a34f706d6b3428e169bbab3') in 0.022622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 1.977536 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '31f0d8ee3ec117722b41daa169a729c3') in 0.021640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.249034 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b182dbade727db0910f2b68c9221ba53') in 0.021841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.105421 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5ed78525e3517de3d662195264beacee') in 0.021739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.355021 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '55130a68409801492bac636ce987b46e') in 0.022964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.887547 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'af961c2aec5c1d1103379e980019f2ed') in 0.024343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.636678 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bd336b12062bcc352041239e6b35d98b') in 0.024814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 1.779458 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e889fdf1be42160f577bb320cdce3ff0') in 0.024300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 9.174094 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f944c0862b8def80b59f2d33edab5570') in 0.021700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 7.902410 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '80eb0fc6de3baeeb6aa9e8a27883ecb1') in 0.020911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 11.012836 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2fba243e02dd5dbf9a3ab41668227f81') in 0.023425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 1.436686 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a58ae1a2d623589e547130988209bb61') in 0.022863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.818187 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b82fa7cc5af59ac3f2bcc5243fd59284') in 0.021831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 9.953116 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a4ecead5d422ee746e20115a1da138e2') in 0.023394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 13.249973 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0adfba771316720c5290e311bb8e8a04') in 0.025924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 16.725692 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '41ee65eb5a9c142e053117db011553da') in 0.022789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 9.566575 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd48d3fc634eaa4cf90e5915ff66b3b56') in 0.022649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 3.032261 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'db67e79db66660ba45fc81befbd55b69') in 0.022011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 9.603823 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0c430242266c96e5730768a44def7529') in 0.025910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.201617 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e6159db3a38b819acf9a6b84934ec6c0') in 0.024796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 34.611032 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '990770c3795b24a082b03277eb61008b') in 0.023015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 3.412922 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4eb814802b46ae778cea8c37774d52b9') in 0.023692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 6.236504 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c860c75d2a2c27045a8b5fcdcaf0c52a') in 0.021296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 13.995414 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3c0ff816d4bef3b563f101b46a921cfb') in 0.022968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 8.511010 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'df09331d43c143abe85b243d852b973b') in 0.020719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 5.736920 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3a6ea7fc13b306d9b0ad8435aa9d5943') in 0.023447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 9.735311 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9a4dc6ad40789cf53cc64ccf1b3287aa') in 0.024965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 7.284864 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '82e424824c1d18721636345339a022d6') in 0.020880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 11.276853 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4cd8f62be0a48515e1cff94d3f51da6f') in 0.021920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 6.105067 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c97e30da67204794379ec1f596b1e70f') in 0.021714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 25.484002 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '37133dc249d2d77b5d9fba0da81cda41') in 0.023282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 16.610226 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ed06af8aa659d7dbc3ef2eee80b414a5') in 0.021325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 99.501319 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8497097e248f46eb36095a8d705ce5d0') in 0.024446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.823727 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '257a6738fad74f6938d235f4acb0dd33') in 0.027341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.598187 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3ff6abbae9f34247f30038ad58c0db00') in 0.020008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 51.055405 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'be56aab3d6a6e7d0659eab5afce030d4') in 0.024323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.992385 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '50993c8c28ce0b159002ca9d560a2a9d') in 0.021733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.188480 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '58fb46b194ce8348f080211e5b6c3f0a') in 0.023730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 61.837039 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0f2a95868b08a9711fa9b51531e7e1ab') in 0.021553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 1.207533 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1a12e650859f46452aa1b9f950ef0ef9') in 0.028593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.256196 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '72f905434ec925fad6ba808c9bd368f5') in 0.019483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.148508 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4d304b2c0c8b618727b1010bbce93423') in 0.024639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 1.394063 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ed25239449c152f2d50cbb6da19ba885') in 0.023760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.057832 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e57ff3ccaa92b0d6d358aa26572c49ee') in 0.025656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 21.479681 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8d5a06668c9e6af5a2c8b5166739d42f') in 0.021682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.723 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.233 seconds
+Domain Reload Profiling: 2952ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (476ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2234ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (1147ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 10.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3909 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (85.1 KB). Loaded Objects now: 4450.
+Memory consumption went from 154.4 MB to 154.4 MB.
+Total: 11.544500 ms (FindLiveObjects: 0.597900 ms CreateObjectMapping: 0.586100 ms MarkObjects: 10.193200 ms  DeleteObjects: 0.163900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.632 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.271 seconds
+Domain Reload Profiling: 2899ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (405ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2272ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (1028ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 10.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3910 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (77.0 KB). Loaded Objects now: 4453.
+Memory consumption went from 154.7 MB to 154.6 MB.
+Total: 9.240800 ms (FindLiveObjects: 0.650500 ms CreateObjectMapping: 1.093500 ms MarkObjects: 7.325100 ms  DeleteObjects: 0.169100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 387.532803 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/blobFangy.prefab
+  artifactKey: Guid(17ddaffdcb9c68f4fb18fed332d10ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/blobFangy.prefab using Guid(17ddaffdcb9c68f4fb18fed332d10ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '104fa8838e58f91c406264971c1848fc') in 0.138409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 58.944563 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/blobKnight.prefab
+  artifactKey: Guid(72aa8ec0a466ba543a9015c3077aff71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/blobKnight.prefab using Guid(72aa8ec0a466ba543a9015c3077aff71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e2107ffcede04571e619f56a057946a4') in 0.018137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 14.664869 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/blobNormal.prefab
+  artifactKey: Guid(a6a2357658f5a29468c183d295c53209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/blobNormal.prefab using Guid(a6a2357658f5a29468c183d295c53209) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c2f2cf4a28529f677b81772234fa74e0') in 0.023675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 85
+========================================================================
+Received Import Request.
+  Time since last request: 22.103616 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/eldritchDemon.prefab
+  artifactKey: Guid(4e3a37bd18f64c74f9c51738270bd70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/eldritchDemon.prefab using Guid(4e3a37bd18f64c74f9c51738270bd70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ad8356b494bf4c1d3844af9516030e04') in 0.031334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 348
+========================================================================
+Received Import Request.
+  Time since last request: 17.598548 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/pod.prefab
+  artifactKey: Guid(2a74ebf30b8e75f45afed65a6f1afaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/pod.prefab using Guid(2a74ebf30b8e75f45afed65a6f1afaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'deb055def8d99a6daaaec0813565c2e6') in 0.022874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 9.130242 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/pod.prefab
+  artifactKey: Guid(2a74ebf30b8e75f45afed65a6f1afaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/pod.prefab using Guid(2a74ebf30b8e75f45afed65a6f1afaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b4cbf6277d98608cc657d6d6e3968d65') in 0.020841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 34.320986 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podMother.prefab
+  artifactKey: Guid(ea9544dcda4c5f141a9ba2d4359a8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podMother.prefab using Guid(ea9544dcda4c5f141a9ba2d4359a8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '848e80889f17b1b31367bbc59962d200') in 0.026447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 13.964446 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podMother.prefab
+  artifactKey: Guid(ea9544dcda4c5f141a9ba2d4359a8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podMother.prefab using Guid(ea9544dcda4c5f141a9ba2d4359a8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1626c43905a936c70a9cd6c469d36bb0') in 0.025131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.992978 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podMother.prefab
+  artifactKey: Guid(ea9544dcda4c5f141a9ba2d4359a8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podMother.prefab using Guid(ea9544dcda4c5f141a9ba2d4359a8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd61371c3552142f72e753cc73f350b08') in 0.027125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 6.980926 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podMother.prefab
+  artifactKey: Guid(ea9544dcda4c5f141a9ba2d4359a8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podMother.prefab using Guid(ea9544dcda4c5f141a9ba2d4359a8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fa82f007e69fc08e694f206b4604e786') in 0.026984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 5.062271 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podMother.prefab
+  artifactKey: Guid(ea9544dcda4c5f141a9ba2d4359a8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podMother.prefab using Guid(ea9544dcda4c5f141a9ba2d4359a8044) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9bac88e2d093a3c8e9460d428e798434') in 0.029977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 32.818121 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c1ab2c5f298a672d8af048feffd672a7') in 0.028711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 47.926338 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4dbfbc728e463935b556f7980320cf55') in 0.022201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 20.026814 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c372db0cfc9a7e6db158d7e35d480f1b') in 0.022945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 3.163866 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '720ca4db53c4bfb66d3b908b5945df93') in 0.023865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 15.048142 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3aab543066a8c4aadc463fb6d4ce0c53') in 0.020722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.831459 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '95e80bb16728ec5ae6c066527535a49f') in 0.020400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 3.461153 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6342e90467f5ff6d819a65629f2486b0') in 0.020281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 3.280994 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aba915fc7f878e1854a88d01d0917508') in 0.035085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 16.094452 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c48c21fb67163c7733d8d908e0651442') in 0.029545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.182009 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9e0c997bb52791e3c58369f4ba5f5ec4') in 0.022030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.231872 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f68ef81f0558ad66194cc010800f11fc') in 0.022123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 3.030527 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '32833c9e843ef0a86519f2c14b1c9ed6') in 0.021401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 3.219037 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3190a8ec34c6fa7ef574046396e2de01') in 0.021884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.024370 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '23e320aac33d4ddaed37a3b0bf96e241') in 0.020942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 39.629718 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aeea4e12118c88c3bce321dc3bc4882d') in 0.021920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 4.887678 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f0fcb659eaa7db9ad06d717d07f04355') in 0.023203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 1.605140 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '70c59e4f2364b562b51701b10eed3f7a') in 0.021447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 10.519387 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e03967f14b12006ed68cc262aab9fb2b') in 0.020519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.058144 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd0f6dbee310cc5ecf19fdf9045b68873') in 0.022471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.698 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.545 seconds
+Domain Reload Profiling: 3240ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (445ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2546ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1430ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (174ms)
+			ProcessInitializeOnLoadAttributes (1159ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 11.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3909 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (85.0 KB). Loaded Objects now: 4456.
+Memory consumption went from 154.5 MB to 154.4 MB.
+Total: 8.951000 ms (FindLiveObjects: 0.607500 ms CreateObjectMapping: 0.754800 ms MarkObjects: 7.353200 ms  DeleteObjects: 0.233000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 189.289897 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab
+  artifactKey: Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/podSeedling.prefab using Guid(1f257c7b42b3f3446bf15747c48b6214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a2bec40aeaf468c00f8bde592d1774ad') in 0.155743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.665 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.670 seconds
+Domain Reload Profiling: 3334ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (446ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2673ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1485ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (1228ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 10.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3909 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (77.0 KB). Loaded Objects now: 4459.
+Memory consumption went from 154.5 MB to 154.4 MB.
+Total: 8.275800 ms (FindLiveObjects: 0.541500 ms CreateObjectMapping: 0.506700 ms MarkObjects: 7.017400 ms  DeleteObjects: 0.207800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 116.851659 seconds.
+  path: Assets/Prefabs/Blobs/New Prefabs/pod.prefab
+  artifactKey: Guid(2a74ebf30b8e75f45afed65a6f1afaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blobs/New Prefabs/pod.prefab using Guid(2a74ebf30b8e75f45afed65a6f1afaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4bc1374df57cb03d4b5aa528a67bc93f') in 0.144633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
