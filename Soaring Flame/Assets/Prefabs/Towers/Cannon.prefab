@@ -247,8 +247,8 @@ MonoBehaviour:
   Target: {fileID: 0}
   Projectile: {fileID: 3663204838847325826, guid: 8d6778c4fdf79be4985467cc5a93f955, type: 3}
   AttackSpot: {fileID: 9059515365512683930}
-  Range: 20
-  attackTimer: 3
+  Range: 22.5
+  attackTimer: 3.75
   TargetPos: {x: 0, y: 0, z: 0}
   Weapon: {fileID: 7874890208604573548}
   turnSpeed: 20

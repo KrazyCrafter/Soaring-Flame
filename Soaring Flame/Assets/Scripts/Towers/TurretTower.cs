@@ -14,7 +14,14 @@ public class TurretTower : Tower
         else
         {
             Charged = true;
-            Counter++;
+            if (targetDist > Range * 1.5f)
+            {
+                Counter++;
+            }
+            else
+            {
+                Doing = States.Attacking;
+            }
         }
     }
 }

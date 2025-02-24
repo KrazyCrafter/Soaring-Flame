@@ -7,33 +7,50 @@ public class Enemy : MonoBehaviour
 {
     public float HP;
     public float MaxHP;
-    public int PriorityMultiplier;
+    public float PriorityMultiplier;
     public int Price;
-    public float PhysicalDamageRes; //Res needs to be between 0 and 1(maybe -1 if we want to have increased damage)
-    public float MagicDamageRes;//Res needs to be between 0 and 1(maybe -1 if we want to have increased damage)
+    public float PhysicalDamageRes; //Res is messaged in a percent reduction
+    public float MagicDamageRes; //Res is messaged in a percent reduction
     public AudioSource[] VoiceLines;
+    protected float timer;
+    public float Talktime;
+    public AudioSource[] DeathLines;
     public GameObject EnemyBase;
     public float Dmg;
     public RectTransform BarTrans;
     private NavMeshAgent agent;
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
         EnemyBase = GameObject.FindGameObjectWithTag("Destination");
         agent = GetComponent<NavMeshAgent>();
         Spawn();
     }
-    void Spawn() // Was thinking about setting up Object pooling for the enemies
+    public virtual void Spawn() // Was thinking about setting up Object pooling for the enemies
     {
         agent.destination = EnemyBase.transform.position;
         HP = MaxHP;
         V.Enemies.Add(gameObject);
+        Talktime = 30;
+        timer = 30;
     }
-
-    // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
-        
+        timer += Time.deltaTime;
+        if (timer >= Talktime)
+        {
+            timer = 0;
+            int RNG = Random.Range(0, 10);
+            if(RNG == 0)
+            {
+                Talk();
+            }
+        }
+    }
+    public void Talk()
+    {
+        int selection = Random.Range(0, VoiceLines.Length);
+        VoiceLines[selection].Play();
     }
     public void TakeDamage(float Dmg, string DmgType)
     {
@@ -59,9 +76,11 @@ public class Enemy : MonoBehaviour
             BarTrans.localScale = new Vector3(HP / MaxHP, 1, 1);
         }
     }
-    public void Die() // Want to add in object pooling here later
+    public virtual void Die() // Want to add in object pooling here later
     {
         V.Enemies.Remove(gameObject);
+        int RNG = Random.Range(0, DeathLines.Length);
+        DeathLines[RNG].Play();
         Destroy(gameObject);
     }
 }

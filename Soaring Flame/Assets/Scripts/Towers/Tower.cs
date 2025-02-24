@@ -40,6 +40,10 @@ public class Tower : MonoBehaviour
             {
                 targetDist = Mathf.Infinity;
             }
+            else
+            {
+                targetDist = Vector3.Distance(TargetPos, Weapon.transform.position);
+            }
         }
         if (Doing == States.Attacking && Charged)
         {
@@ -69,6 +73,10 @@ public class Tower : MonoBehaviour
             if (Target != null)
             {
                 TargetPos = Target.position - Weapon.transform.position;
+                if (targetDist > Range * 1.5f)
+                {
+                    Doing = States.Idle;
+                }
             }
         }
         Turning();
@@ -97,7 +105,7 @@ public class Tower : MonoBehaviour
                 }
             }
         }
-        if(closestDistance > Range * 1.5f)
+        if(Vector3.Distance(transform.position, closest.transform.position) > Range * 1.5f)
         {
             Doing = States.Idle;
         }
@@ -107,7 +115,7 @@ public class Tower : MonoBehaviour
         }
         return closest.transform;
     }
-    protected void Attack()
+    protected virtual void Attack()
     {
         Weapon.transform.rotation = Quaternion.Slerp(Weapon.transform.rotation, lastPos, Time.deltaTime * turnSpeed);
         timer = 0;

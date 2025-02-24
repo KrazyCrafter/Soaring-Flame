@@ -86,6 +86,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2175278964174831404}
   - component: {fileID: 1822874487785433832}
+  - component: {fileID: -6651214573774172214}
+  - component: {fileID: 40759572035928201}
   m_Layer: 0
   m_Name: Seedling
   m_TagString: Enemy
@@ -137,6 +139,50 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!114 &-6651214573774172214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5116284224166071011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 832ffd7b5243bc747b03ed8a8169cf0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 15
+  MaxHP: 15
+  PriorityMultiplier: 2
+  Price: 1
+  PhysicalDamageRes: -0.25
+  MagicDamageRes: 0.75
+  VoiceLines: []
+  EnemyBase: {fileID: 0}
+  Dmg: 2
+  BarTrans: {fileID: 116751963206584438}
+--- !u!195 &40759572035928201
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5116284224166071011}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.1
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.3
+  m_BaseOffset: 0.1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &5396387252098390357
 GameObject:
   m_ObjectHideFlags: 0
