@@ -249,6 +249,8 @@ MonoBehaviour:
   AttackSpot: {fileID: 9059515365512683930}
   Range: 22.5
   attackTimer: 3.75
+  timer: 0
+  targetDist: 0
   TargetPos: {x: 0, y: 0, z: 0}
   Weapon: {fileID: 7874890208604573548}
   turnSpeed: 20

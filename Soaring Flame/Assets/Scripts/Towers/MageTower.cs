@@ -35,8 +35,32 @@ public class MageTower : Tower
     {
         Weapon.transform.Rotate(timer * transform.up * Time.deltaTime);
     }
+    public override float TargetValue(GameObject Target)
+    {
+        if (Target.GetComponent<Enemy>().MagicDamageRes > 1)
+        {
+            return Mathf.Infinity;
+        }
+        else if (Vector3.Distance(transform.position, Target.transform.position) > Range)
+        {
+            return Vector3.Distance(transform.position, Target.transform.position) / Target.GetComponent<Enemy>().PriorityMultiplier * 10;
+        }
+        else
+        {
+            return Vector3.Distance(transform.position, Target.transform.position) / Target.GetComponent<Enemy>().PriorityMultiplier;
+        }
+    }
     protected override void IdleRotating()
     {
+        Target = FindTarget(V.Enemies);
+        if (Target == null)
+        {
+            targetDist = Mathf.Infinity;
+        }
+        else
+        {
+            targetDist = Vector3.Distance(TargetPos, Weapon.transform.position);
+        }
         if (targetDist > Range * 1.5f)
         {
             Weapon.transform.Rotate(timer / 2 * transform.up * Time.deltaTime);

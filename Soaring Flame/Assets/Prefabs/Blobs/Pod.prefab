@@ -350,7 +350,7 @@ Transform:
   m_GameObject: {fileID: 5699741332619137595}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.25, y: 9.9, z: -7}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -383,7 +383,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 122
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!114 &7101171189820813493
 MonoBehaviour:
@@ -399,11 +399,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 40
   MaxHP: 40
-  PriorityMultiplier: 1.75
+  PriorityMultiplier: 0.33
   Price: 15
   PhysicalDamageRes: 0
   MagicDamageRes: 1
   VoiceLines: []
+  Talktime: 0
+  DeathLines: []
   EnemyBase: {fileID: 0}
   Dmg: 0
   BarTrans: {fileID: 4461969577534431308}

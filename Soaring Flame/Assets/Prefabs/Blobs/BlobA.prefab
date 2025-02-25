@@ -540,7 +540,7 @@ Transform:
   m_GameObject: {fileID: 2116360458064479075}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.25, y: 10.4, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -599,6 +599,10 @@ MonoBehaviour:
   - {fileID: 4537337630081218021}
   - {fileID: 741860034491963145}
   - {fileID: 7315398438722402422}
+  Talktime: 0
+  DeathLines:
+  - {fileID: 7156405340529788495}
+  - {fileID: 8898038430407888211}
   EnemyBase: {fileID: 0}
   Dmg: 5
   BarTrans: {fileID: 4951635643368310341}
@@ -612,7 +616,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1041,7 +1045,7 @@ RectTransform:
   m_GameObject: {fileID: 6839517151824877189}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2857143, y: 1, z: 1}
+  m_LocalScale: {x: 0.29285714, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8288668967283901573}

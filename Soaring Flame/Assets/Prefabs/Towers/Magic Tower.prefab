@@ -303,6 +303,8 @@ MonoBehaviour:
   AttackSpot: {fileID: 0}
   Range: 25
   attackTimer: 2.5
+  timer: 0
+  targetDist: 0
   TargetPos: {x: 0, y: 0, z: 0}
   Weapon: {fileID: 7308866171924877969}
   turnSpeed: 20

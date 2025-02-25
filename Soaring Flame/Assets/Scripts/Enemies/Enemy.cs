@@ -41,7 +41,7 @@ public class Enemy : MonoBehaviour
         {
             timer = 0;
             int RNG = Random.Range(0, 10);
-            if(RNG == 0)
+            if(RNG == 0 && VoiceLines.Length > 0)
             {
                 Talk();
             }
@@ -79,8 +79,11 @@ public class Enemy : MonoBehaviour
     public virtual void Die() // Want to add in object pooling here later
     {
         V.Enemies.Remove(gameObject);
-        int RNG = Random.Range(0, DeathLines.Length);
-        DeathLines[RNG].Play();
+        if (DeathLines.Length > 0)
+        {
+            int RNG = Random.Range(0, DeathLines.Length);
+            DeathLines[RNG].Play();
+        }
         Destroy(gameObject);
     }
 }
