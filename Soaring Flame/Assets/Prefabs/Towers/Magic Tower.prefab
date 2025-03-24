@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3424621122324421259}
   - component: {fileID: 4929788141866953266}
   - component: {fileID: 4567543757661642684}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 6623724810763349138}
   - component: {fileID: 8145384944316821652}
   - component: {fileID: 6778777648680415287}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   - component: {fileID: 6409794892855237283}
   - component: {fileID: 4302804380723562922}
   - component: {fileID: 169935496025736004}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3343399266360802476}
   - component: {fileID: 8112201624439191662}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Magic Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +324,7 @@ GameObject:
   - component: {fileID: 8047052075559138216}
   - component: {fileID: 6036118764021313019}
   - component: {fileID: 8562231570291924414}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Orb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -407,7 +407,7 @@ GameObject:
   - component: {fileID: 223007060921165069}
   - component: {fileID: 7708879767769753511}
   - component: {fileID: 8068243221956119753}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Icosphere.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -59,6 +59,7 @@ public class Tower : MonoBehaviour
         }
         if (Doing == States.Attacking && Charged)
         {
+            Charged = false;
             timer = attackTimer;
         }
         timer += Time.deltaTime;
@@ -133,7 +134,8 @@ public class Tower : MonoBehaviour
                 }
             }
         }
-        if(Vector3.Distance(transform.position, closest.transform.position) > Range * 1.5f)
+        targetDist = Vector3.Distance(transform.position, closest.transform.position);
+        if (targetDist > Range * 1.5f)
         {
             Doing = States.Idle;
         }

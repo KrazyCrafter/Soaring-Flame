@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\",
+  "WorkspaceRootPath": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\admin\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\cameraswapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\towers\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\towers\\cannontower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\cannontower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Temp\\GeneratedFromGraph-BlobCShine.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Temp\\GeneratedFromGraph-BlobCShine.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\cameraswapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraswapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\cameramover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CameraSwapper.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\CameraSwapper.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraSwapper.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\CameraSwapper.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CameraSwapper.cs",
+              "DocumentIndex": 1,
+              "Title": "CannonTower.cs",
+              "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\CannonTower.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\CannonTower.cs",
+              "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\CannonTower.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Towers\\CannonTower.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T02:55:00.882Z",
+              "WhenOpened": "2025-03-24T15:46:56.363Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tower.cs",
+              "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\Tower.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\Tower.cs",
+              "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\Tower.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Towers\\Tower.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowD0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T15:40:42.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GeneratedFromGraph-BlobCShine.shader",
+              "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Temp\\GeneratedFromGraph-BlobCShine.shader",
+              "RelativeDocumentMoniker": "Temp\\GeneratedFromGraph-BlobCShine.shader",
+              "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Temp\\GeneratedFromGraph-BlobCShine.shader",
+              "RelativeToolTip": "Temp\\GeneratedFromGraph-BlobCShine.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-03-24T15:21:02.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CameraMover.cs",
+              "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\CameraMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraMover.cs",
+              "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\CameraMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraMover.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T03:01:44.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraSwapper.cs",
+              "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\CameraSwapper.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraSwapper.cs",
+              "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\CameraSwapper.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraSwapper.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T02:55:00.882Z"
             }
           ]
         }

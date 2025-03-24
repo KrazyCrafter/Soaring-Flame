@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7131047267687215799}
   - component: {fileID: 7277631931702181884}
   - component: {fileID: 4109711221181885576}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1579646690708072151}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FireSpot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 8740645797572669255}
   - component: {fileID: 295943320989000972}
   - component: {fileID: 8716433899301111933}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8564395792823649716}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FireSpot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7430345550403628208}
   - component: {fileID: 4849716298833845532}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rapiblast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 5175110989618703810}
   - component: {fileID: 4642603335476305954}
   - component: {fileID: 2161775270395468376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -387,7 +387,7 @@ GameObject:
   - component: {fileID: 5357521186770785268}
   - component: {fileID: 1143703865177358339}
   - component: {fileID: 1374828274438339373}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,7 +468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1647999747609798816}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
