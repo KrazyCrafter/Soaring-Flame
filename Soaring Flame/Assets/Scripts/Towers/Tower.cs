@@ -9,8 +9,8 @@ public class Tower : MonoBehaviour
     public Transform AttackSpot;
     public float Range = 20;
     public float attackTimer = .25f;
-    protected float timer;
-    protected float targetDist;
+    public float timer;
+    public float targetDist;
     public Vector3 TargetPos;
     protected Quaternion lastPos;
     public GameObject Weapon;
@@ -23,10 +23,18 @@ public class Tower : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Target = getClosestThing(V.Enemies);
+        Target = FindTarget(V.Enemies);
         if(Target == null)
         {
             targetDist = Mathf.Infinity;
+        }
+        else
+        {
+            if (Doing == States.Attacking)
+            {
+                TargetPos = Target.position;
+            }
+            targetDist = Vector3.Distance(TargetPos, Weapon.transform.position);
         }
     }
 
@@ -35,14 +43,23 @@ public class Tower : MonoBehaviour
     {
         if(Target == null)
         {
-            Target = getClosestThing(V.Enemies);
+            Target = FindTarget(V.Enemies);
             if (Target == null)
             {
                 targetDist = Mathf.Infinity;
             }
+            else
+            {
+                if(Doing == States.Attacking)
+                {
+                    TargetPos = Target.position;
+                }
+                targetDist = Vector3.Distance(TargetPos, Weapon.transform.position);
+            }
         }
         if (Doing == States.Attacking && Charged)
         {
+            Charged = false;
             timer = attackTimer;
         }
         timer += Time.deltaTime;
@@ -50,11 +67,26 @@ public class Tower : MonoBehaviour
         {
             if (Doing == States.Attacking)
             {
-                if(targetDist <= Range)
+                TargetPos = Target.position;
+                targetDist = Vector3.Distance(TargetPos, Weapon.transform.position);
+                if (targetDist < Range)
                 {
                     Attack();
                 }
-                else if(targetDist > Range * 1.5f)
+                Target = FindTarget(V.Enemies);
+                if (Target == null)
+                {
+                    targetDist = Mathf.Infinity;
+                }
+                else
+                {
+                    if (Doing == States.Attacking)
+                    {
+                        TargetPos = Target.position;
+                    }
+                    targetDist = Vector3.Distance(TargetPos, Weapon.transform.position);
+                }
+                if(targetDist > Range * 1.5f)
                 {
                     Doing = States.Idle;
                 }
@@ -69,35 +101,41 @@ public class Tower : MonoBehaviour
             if (Target != null)
             {
                 TargetPos = Target.position - Weapon.transform.position;
+                targetDist = Vector3.Distance(TargetPos, Weapon.transform.position);
+                if (targetDist > Range * 1.5f)
+                {
+                    Doing = States.Idle;
+                }
             }
         }
         Turning();
     }
-    public Transform getClosestThing(List<GameObject> Things)
+    public Transform FindTarget(List<GameObject> Things)
     {
         if(Things.Count == 0)
         {
             return null;
         }
         GameObject closest = null;
-        float closestDistance = Mathf.Infinity;
+        float BestPriority = Mathf.Infinity;
         if (Things.Count > 0)
         {
             foreach (GameObject go in Things)
             {
                 if (go != null)
                 {
-                    float currentDistance;
-                    currentDistance = Vector3.Distance(transform.position, go.transform.position) / go.GetComponent<Enemy>().PriorityMultiplier;
-                    if (currentDistance < closestDistance)
+                    float TargetPriority;
+                    TargetPriority = TargetValue(go);
+                    if (TargetPriority < BestPriority)
                     {
-                        closestDistance = currentDistance;
+                        BestPriority = TargetPriority;
                         closest = go;
                     }
                 }
             }
         }
-        if(closestDistance > Range * 1.5f)
+        targetDist = Vector3.Distance(transform.position, closest.transform.position);
+        if (targetDist > Range * 1.5f)
         {
             Doing = States.Idle;
         }
@@ -107,7 +145,18 @@ public class Tower : MonoBehaviour
         }
         return closest.transform;
     }
-    protected void Attack()
+    public virtual float TargetValue(GameObject Target)
+    {
+        if(Vector3.Distance(transform.position, Target.transform.position) > Range)
+        {
+            return Vector3.Distance(transform.position, Target.transform.position) / Target.GetComponent<Enemy>().PriorityMultiplier * 10;
+        }
+        else
+        {
+            return Vector3.Distance(transform.position, Target.transform.position) / Target.GetComponent<Enemy>().PriorityMultiplier;
+        }
+    }
+    protected virtual void Attack()
     {
         Weapon.transform.rotation = Quaternion.Slerp(Weapon.transform.rotation, lastPos, Time.deltaTime * turnSpeed);
         timer = 0;
@@ -115,28 +164,28 @@ public class Tower : MonoBehaviour
 
         GameObject Bullet = Instantiate(Projectile, AttackSpot.position, AttackSpot.rotation);
         Bullet.GetComponent<Projectile>().Spawn(Damage, Damage*10);
-        Target = getClosestThing(V.Enemies);
+        Target = FindTarget(V.Enemies);
     }
     protected virtual void IdleRotating()
     {
+        Target = FindTarget(V.Enemies);
+        if (Target == null)
+        {
+            targetDist = Mathf.Infinity;
+        }
+        else
+        {
+            if (Doing == States.Attacking)
+            {
+                TargetPos = Target.position;
+            }
+            targetDist = Vector3.Distance(TargetPos, Weapon.transform.position);
+        }
         if (targetDist > Range * 1.5f)
         {
             TargetPos = transform.position;
-            float RNG = Random.Range(Range / 2, Range);
-            int Decider = Random.Range(0, 2);
-            if(Decider == 0)
-            {
-                RNG *= -1;
-            }
-            TargetPos.x += RNG;
-            TargetPos.y += Weapon.transform.position.y;
-            RNG = Random.Range(Range / 2, Range);
-            Decider = Random.Range(0, 2);
-            if (Decider == 0)
-            {
-                RNG *= -1;
-            }
-            TargetPos.z += RNG;
+            TargetPos.x += Random.Range(-Range, Range);
+            TargetPos.z += Random.Range(-Range, Range);
             timer = 0;
             Charged = true;
         }

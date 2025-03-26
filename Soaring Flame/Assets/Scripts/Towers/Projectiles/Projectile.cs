@@ -12,6 +12,7 @@ public class Projectile : MonoBehaviour
         Dmg = damage;
         Rb = gameObject.GetComponent<Rigidbody>();
         Rb.AddForce(force * transform.forward);
+        Destroy(gameObject, 10);
     }
     protected virtual void OnCollisionEnter(Collision collision)
     {

@@ -1,0 +1,35 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MagicFlame : Projectile
+{
+    public void Spawn(float damage)
+    {
+        Dmg = damage;
+        Destroy(gameObject, 10);
+    }
+    protected void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
+            bool Worked = false;
+            int Counter = 0;
+            GameObject Obj = collision.gameObject;
+            while (!Worked && Counter < 5)
+            {
+                try
+                {
+                    Obj.GetComponent<Enemy>().TakeDamage(Dmg, Type);
+                    Worked = true;
+                }
+                catch(System.NullReferenceException)
+                {
+                    Obj = Obj.transform.parent.gameObject;
+                    Counter++;
+                    Debug.Log("DamageCycling, counter = "+Counter);
+                }
+            }
+        }
+    }
+}
