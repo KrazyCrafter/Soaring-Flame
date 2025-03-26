@@ -11,14 +11,19 @@ public class CannonBall : Projectile
         {
             collision.gameObject.GetComponent<Enemy>().TakeDamage(Dmg, Type);
         }
+        List<GameObject> Colateral = new List<GameObject>();
         foreach (GameObject go in V.Enemies)
         {
             float Dist = Vector3.Distance(go.transform.position, transform.position);
             if (Dist < ExplodeRadius)
             {
-                float Multi = Dist / ExplodeRadius;
-                go.GetComponent<Enemy>().TakeDamage(Dmg*Multi / 2, Type);
+                Colateral.Add(go);
             }
+        }
+        for(int i = 0; i < Colateral.Count; i++)
+        {
+            float Multi = Vector3.Distance(Colateral[i].transform.position, transform.position) / (2 * ExplodeRadius);
+            Colateral[i].GetComponent<Enemy>().TakeDamage(Dmg * Multi, Type);
         }
         Destroy(gameObject);
     }

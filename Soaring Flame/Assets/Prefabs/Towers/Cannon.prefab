@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8543764879040232983}
   - component: {fileID: 1747042463107769781}
   - component: {fileID: 6306088809190908093}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 1492107346622413722}
   - component: {fileID: 1568468692528730466}
   - component: {fileID: 561632169454177075}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cylinder.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9059515365512683930}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SpawnSpot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5587869422601934543}
   - component: {fileID: 7018431065232936298}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,8 +247,10 @@ MonoBehaviour:
   Target: {fileID: 0}
   Projectile: {fileID: 3663204838847325826, guid: 8d6778c4fdf79be4985467cc5a93f955, type: 3}
   AttackSpot: {fileID: 9059515365512683930}
-  Range: 20
-  attackTimer: 3
+  Range: 22.5
+  attackTimer: 3.75
+  timer: 0
+  targetDist: 0
   TargetPos: {x: 0, y: 0, z: 0}
   Weapon: {fileID: 7874890208604573548}
   turnSpeed: 20
@@ -268,7 +270,7 @@ GameObject:
   - component: {fileID: 7996548651423453644}
   - component: {fileID: 2378953807717236225}
   - component: {fileID: 7153229252978928270}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1225225047778700583}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Supports
   m_TagString: Untagged
   m_Icon: {fileID: 0}
