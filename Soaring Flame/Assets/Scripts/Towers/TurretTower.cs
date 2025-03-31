@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class TurretTower : Tower
 {
+    protected override void Start()
+    {
+        V.TurretCount++;
+        base.Start();
+    }
     public int Counter;
     protected override void IdleRotating()
     {

@@ -18,7 +18,27 @@ public class Projectile : MonoBehaviour
     {
         if(collision.gameObject.tag == "Enemy")
         {
-            collision.gameObject.GetComponent<Enemy>().TakeDamage(Dmg, Type);
+            bool Worked = false;
+            int Counter = 0;
+            GameObject Obj = collision.gameObject;
+            while (!Worked && Counter < 5)
+            {
+                try
+                {
+                    Obj.GetComponent<Enemy>().TakeDamage(Dmg, Type);
+                    Worked = true;
+                    if (Counter > 0)
+                    {
+                        Debug.Log($"Did {Dmg} Damage to {Obj.name} after {Counter} Cycles");
+                    }
+                }
+                catch (System.NullReferenceException)
+                {
+                    Obj = Obj.transform.parent.gameObject;
+                    Counter++;
+                    Debug.Log("DamageCycling, counter = " + Counter);
+                }
+            }
         }
         Destroy(gameObject);
     }

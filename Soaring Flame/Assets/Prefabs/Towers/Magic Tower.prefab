@@ -309,7 +309,7 @@ MonoBehaviour:
   Weapon: {fileID: 7308866171924877969}
   turnSpeed: 20
   FireSound: {fileID: 0}
-  Damage: 25
+  Damage: 15
   Doing: 0
   Charged: 0
   partic: {fileID: 3442045756083298302, guid: 44f17324e7d793d47bfbe54adf5ce365, type: 3}

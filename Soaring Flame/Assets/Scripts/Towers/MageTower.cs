@@ -5,6 +5,12 @@ using UnityEngine;
 public class MageTower : Tower
 {
     public GameObject partic;
+
+    protected override void Start()
+    {
+        V.MageCount++;
+        base.Start();
+    }
     protected override void Attack()
     {
         timer = 0;

@@ -22,6 +22,10 @@ public class MagicFlame : Projectile
                 {
                     Obj.GetComponent<Enemy>().TakeDamage(Dmg, Type);
                     Worked = true;
+                    if(Counter > 0)
+                    {
+                        Debug.Log($"Did {Dmg} Damage to {Obj.name} after {Counter} Cycles");
+                    }
                 }
                 catch(System.NullReferenceException)
                 {

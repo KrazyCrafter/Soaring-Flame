@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,8 +22,9 @@ public class Tower : MonoBehaviour
     public States Doing = States.Idle;
     public bool Charged;
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
+        V.Towers.Add(gameObject);
         Target = FindTarget(V.Enemies);
         if(Target == null)
         {
@@ -47,6 +49,7 @@ public class Tower : MonoBehaviour
             if (Target == null)
             {
                 targetDist = Mathf.Infinity;
+                Doing = States.Idle;
             }
             else
             {
@@ -112,38 +115,46 @@ public class Tower : MonoBehaviour
     }
     public Transform FindTarget(List<GameObject> Things)
     {
-        if(Things.Count == 0)
+        try
         {
-            return null;
-        }
-        GameObject closest = null;
-        float BestPriority = Mathf.Infinity;
-        if (Things.Count > 0)
-        {
-            foreach (GameObject go in Things)
+            if (Things.Count == 0)
             {
-                if (go != null)
+                return null;
+            }
+            GameObject closest = null;
+            float BestPriority = Mathf.Infinity;
+            if (Things.Count > 0)
+            {
+                foreach (GameObject go in Things)
                 {
-                    float TargetPriority;
-                    TargetPriority = TargetValue(go);
-                    if (TargetPriority < BestPriority)
+                    if (go != null)
                     {
-                        BestPriority = TargetPriority;
-                        closest = go;
+                        float TargetPriority;
+                        TargetPriority = TargetValue(go);
+                        if (TargetPriority < BestPriority)
+                        {
+                            BestPriority = TargetPriority;
+                            closest = go;
+                        }
                     }
                 }
             }
+            targetDist = Vector3.Distance(transform.position, closest.transform.position);
+            if (targetDist > Range * 1.5f)
+            {
+                Doing = States.Idle;
+            }
+            else
+            {
+                Doing = States.Attacking;
+            }
+            return closest.transform;
         }
-        targetDist = Vector3.Distance(transform.position, closest.transform.position);
-        if (targetDist > Range * 1.5f)
+        catch(NullReferenceException e)
         {
-            Doing = States.Idle;
+            Debug.Log("Tracking dead enemy");
+            return null;
         }
-        else
-        {
-            Doing = States.Attacking;
-        }
-        return closest.transform;
     }
     public virtual float TargetValue(GameObject Target)
     {
@@ -184,8 +195,8 @@ public class Tower : MonoBehaviour
         if (targetDist > Range * 1.5f)
         {
             TargetPos = transform.position;
-            TargetPos.x += Random.Range(-Range, Range);
-            TargetPos.z += Random.Range(-Range, Range);
+            TargetPos.x += UnityEngine.Random.Range(-Range, Range);
+            TargetPos.z += UnityEngine.Random.Range(-Range, Range);
             timer = 0;
             Charged = true;
         }

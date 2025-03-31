@@ -574,7 +574,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 90
   m_CollisionDetection: 0
 --- !u!114 &2505619251122339996
 MonoBehaviour:
@@ -606,6 +606,7 @@ MonoBehaviour:
   EnemyBase: {fileID: 0}
   Dmg: 5
   BarTrans: {fileID: 4951635643368310341}
+  HomeBase: {fileID: 0}
 --- !u!195 &6662058442486844734
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1045,7 +1046,7 @@ RectTransform:
   m_GameObject: {fileID: 6839517151824877189}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4642857, y: 1, z: 1}
+  m_LocalScale: {x: 0.35714287, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8288668967283901573}

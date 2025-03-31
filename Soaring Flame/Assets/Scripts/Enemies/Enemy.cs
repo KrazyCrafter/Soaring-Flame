@@ -9,8 +9,8 @@ public class Enemy : MonoBehaviour
     public float MaxHP;
     public float PriorityMultiplier;
     public int Price;
-    public float PhysicalDamageRes; //Res is messaged in a percent reduction
-    public float MagicDamageRes; //Res is messaged in a percent reduction
+    public float PhysicalDamageRes; //Res is in a percent reduction
+    public float MagicDamageRes; //Res is in a percent reduction
     public AudioSource[] VoiceLines;
     protected float timer;
     public float Talktime;
@@ -18,18 +18,24 @@ public class Enemy : MonoBehaviour
     public GameObject EnemyBase;
     public float Dmg;
     public RectTransform BarTrans;
-    private NavMeshAgent agent;
+    protected NavMeshAgent agent;
+    public EnemySpawning HomeBase;
     // Start is called before the first frame update
     protected virtual void Start()
     {
         EnemyBase = GameObject.FindGameObjectWithTag("Destination");
         agent = GetComponent<NavMeshAgent>();
+        HomeBase = GameObject.FindWithTag("EnemySpawn").GetComponent<EnemySpawning>();
         Spawn();
     }
     public virtual void Spawn() // Was thinking about setting up Object pooling for the enemies
     {
+        HomeBase.MaxEnemies++;
         agent.destination = EnemyBase.transform.position;
-        HP = MaxHP;
+        if (HP == 0)
+        {
+            HP = MaxHP;
+        }
         V.Enemies.Add(gameObject);
         Talktime = 30;
         timer = 30;

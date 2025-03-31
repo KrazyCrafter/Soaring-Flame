@@ -509,6 +509,7 @@ GameObject:
   - component: {fileID: 1822874487785433832}
   - component: {fileID: -6651214573774172214}
   - component: {fileID: 40759572035928201}
+  - component: {fileID: -2957019934293762264}
   m_Layer: 0
   m_Name: Seedling
   m_TagString: Enemy
@@ -559,7 +560,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 90
   m_CollisionDetection: 0
 --- !u!114 &-6651214573774172214
 MonoBehaviour:
@@ -591,6 +592,7 @@ MonoBehaviour:
   EnemyBase: {fileID: 0}
   Dmg: 2
   BarTrans: {fileID: 116751963206584438}
+  HomeBase: {fileID: 0}
 --- !u!195 &40759572035928201
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -613,6 +615,40 @@ NavMeshAgent:
   m_BaseOffset: 0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &-2957019934293762264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5116284224166071011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90958a29c1c60044c94ebe5ee36ac35c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 15
+  MaxHP: 15
+  PriorityMultiplier: 0.25
+  Price: 1
+  PhysicalDamageRes: -0.25
+  MagicDamageRes: 0.75
+  VoiceLines:
+  - {fileID: 7288781962945139666}
+  - {fileID: 4933464100011771531}
+  - {fileID: 3126113320188849340}
+  - {fileID: 985485984186562266}
+  Talktime: 0
+  DeathLines:
+  - {fileID: 6858915948164216174}
+  - {fileID: 8305907376492156700}
+  EnemyBase: {fileID: 0}
+  Dmg: 0
+  BarTrans: {fileID: 0}
+  HomeBase: {fileID: 0}
+  GrowthTime: 30
+  GrowthTimer: 0
+  Podmother: {fileID: 1312435427770467803, guid: 76d13da15ca87ee4e881a5d61ed9576c, type: 3}
 --- !u!1 &5222707287308295345
 GameObject:
   m_ObjectHideFlags: 0

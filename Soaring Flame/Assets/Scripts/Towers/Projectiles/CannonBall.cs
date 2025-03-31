@@ -9,7 +9,27 @@ public class CannonBall : Projectile
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            collision.gameObject.GetComponent<Enemy>().TakeDamage(Dmg, Type);
+            bool Worked = false;
+            int Counter = 0;
+            GameObject Obj = collision.gameObject;
+            while (!Worked && Counter < 5)
+            {
+                try
+                {
+                    Obj.GetComponent<Enemy>().TakeDamage(Dmg, Type);
+                    Worked = true;
+                    if (Counter > 0)
+                    {
+                        Debug.Log($"Did {Dmg} Damage to {Obj.name} after {Counter} Cycles");
+                    }
+                }
+                catch (System.NullReferenceException)
+                {
+                    Obj = Obj.transform.parent.gameObject;
+                    Counter++;
+                    Debug.Log("DamageCycling, counter = " + Counter);
+                }
+            }
         }
         List<GameObject> Colateral = new List<GameObject>();
         foreach (GameObject go in V.Enemies)
@@ -22,8 +42,8 @@ public class CannonBall : Projectile
         }
         for(int i = 0; i < Colateral.Count; i++)
         {
-            float Multi = Vector3.Distance(Colateral[i].transform.position, transform.position) / (2 * ExplodeRadius);
-            Colateral[i].GetComponent<Enemy>().TakeDamage(Dmg * Multi, Type);
+            float Multi = Vector3.Distance(Colateral[i].transform.position, transform.position) / (3 * ExplodeRadius);
+            Colateral[i].GetComponent<Enemy>().TakeDamage(Dmg * Multi, "AP");
         }
         Destroy(gameObject);
     }
