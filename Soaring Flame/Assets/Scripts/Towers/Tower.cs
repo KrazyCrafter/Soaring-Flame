@@ -150,7 +150,7 @@ public class Tower : MonoBehaviour
             }
             return closest.transform;
         }
-        catch(NullReferenceException e)
+        catch (NullReferenceException)
         {
             Debug.Log("Tracking dead enemy");
             return null;
