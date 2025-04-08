@@ -301,8 +301,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77cd8de69a892de4fa759aa8cce69c33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 60
-  MaxHP: 60
+  HP: 40
+  MaxHP: 40
   PriorityMultiplier: 1
   Price: 60
   PhysicalDamageRes: 0
@@ -319,6 +319,7 @@ MonoBehaviour:
   EnemyBase: {fileID: 0}
   Dmg: 0
   BarTrans: {fileID: 6597298489133919942}
+  HomeBase: {fileID: 0}
   Pod: {fileID: 5116284224166071011, guid: 2730f3920fb9bfa4cb255ab401b4eb1e, type: 3}
 --- !u!1 &2023960419525604320
 GameObject:

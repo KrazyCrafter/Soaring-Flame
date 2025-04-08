@@ -744,7 +744,7 @@ MonoBehaviour:
   HP: 100
   MaxHP: 100
   PriorityMultiplier: 2
-  Price: 50
+  Price: 100
   PhysicalDamageRes: 0
   MagicDamageRes: 0.4
   VoiceLines: []
@@ -753,6 +753,7 @@ MonoBehaviour:
   EnemyBase: {fileID: 0}
   Dmg: 0
   BarTrans: {fileID: 1323384176934522413}
+  HomeBase: {fileID: 0}
 --- !u!195 &4832963776403345211
 NavMeshAgent:
   m_ObjectHideFlags: 0

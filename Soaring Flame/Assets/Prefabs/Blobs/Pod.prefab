@@ -397,8 +397,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c545cc89502a1214db467a15a60bb763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 40
-  MaxHP: 40
+  HP: 30
+  MaxHP: 30
   PriorityMultiplier: 0.33
   Price: 15
   PhysicalDamageRes: 0
@@ -409,6 +409,7 @@ MonoBehaviour:
   EnemyBase: {fileID: 0}
   Dmg: 0
   BarTrans: {fileID: 4461969577534431308}
+  HomeBase: {fileID: 0}
   SpawnTime: 5
   Podling: {fileID: 5116284224166071011, guid: 2730f3920fb9bfa4cb255ab401b4eb1e, type: 3}
 --- !u!208 &6042350307332610296

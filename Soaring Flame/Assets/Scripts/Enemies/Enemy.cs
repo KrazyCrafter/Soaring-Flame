@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -53,6 +54,19 @@ public class Enemy : MonoBehaviour
             }
         }
     }
+    protected void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject == HomeBase)
+        {
+            V.BaseHealth -= Dmg;
+            if(V.BaseHealth < 0)
+            {
+
+                SceneManager.LoadScene("MainScene");
+            }
+            Destroy(gameObject);
+        }
+    }
     public void Talk()
     {
         int selection = Random.Range(0, VoiceLines.Length);
@@ -85,6 +99,7 @@ public class Enemy : MonoBehaviour
     public virtual void Die() // Want to add in object pooling here later
     {
         V.Enemies.Remove(gameObject);
+        V.Coins += Price / 2;
         if (DeathLines.Length > 0)
         {
             int RNG = Random.Range(0, DeathLines.Length);

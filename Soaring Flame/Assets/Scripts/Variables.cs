@@ -11,4 +11,6 @@ public static class V
     public static int TurretCount;
 
     public static int Wave;
+    public static int Coins;
+    public static float BaseHealth;
 }

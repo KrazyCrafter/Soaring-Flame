@@ -3,14 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\enemyspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\towers\\prototypetowerplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\prototypetowerplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Camden\\AppData\\Local\\Temp\\9dad6583-9629-48ce-b7da-3bdd70e8c611_Blobby Towers.zip.Blobby Towers.zip\\Blobby Towers\\Assets\\Code\\MainScene\\PlayerStuff\\TowerPlacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\towers\\cannontower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\towers\\cannontower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\cannontower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -21,11 +37,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EnemySpawning.cs",
+              "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\EnemySpawning.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawning.cs",
+              "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\EnemySpawning.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawning.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T15:26:35.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T15:21:08.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Variables.cs",
+              "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Variables.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Variables.cs",
+              "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Variables.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Variables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T15:19:45.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Enemies\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Enemy.cs",
+              "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Enemies\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\Enemy.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwGUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T15:15:30.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TowerPlacer.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\AppData\\Local\\Temp\\9dad6583-9629-48ce-b7da-3bdd70e8c611_Blobby Towers.zip.Blobby Towers.zip\\Blobby Towers\\Assets\\Code\\MainScene\\PlayerStuff\\TowerPlacer.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\9dad6583-9629-48ce-b7da-3bdd70e8c611_Blobby Towers.zip.Blobby Towers.zip\\Blobby Towers\\Assets\\Code\\MainScene\\PlayerStuff\\TowerPlacer.cs",
@@ -38,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PrototypeTowerPlacement.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\PrototypeTowerPlacement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\PrototypeTowerPlacement.cs",
@@ -51,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CannonTower.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\CannonTower.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\CannonTower.cs",
@@ -59,8 +127,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Towers\\CannonTower.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T03:28:08.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T03:28:08.681Z"
             }
           ]
         }

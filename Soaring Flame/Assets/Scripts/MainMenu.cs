@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        V.BaseHealth = 100;
         ActiveMenu = mainMenu;
         CreditsMenu.SetActive(false);
         ActiveMenu.SetActive(true);
