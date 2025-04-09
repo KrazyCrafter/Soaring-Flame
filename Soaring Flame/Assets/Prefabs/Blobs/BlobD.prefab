@@ -743,17 +743,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 100
   MaxHP: 100
-  PriorityMultiplier: 2
   Price: 100
   PhysicalDamageRes: 0
   MagicDamageRes: 0.4
   VoiceLines: []
   Talktime: 0
   DeathLines: []
-  EnemyBase: {fileID: 0}
-  Dmg: 0
+  Dmg: 7.5
+  DamageType: 
+  AttackSpeed: 0.25
+  AttackRange: 1.6
   BarTrans: {fileID: 1323384176934522413}
+  targetDist: 0
+  PriorityMultiplier: 2
+  EnemyBase: {fileID: 0}
   HomeBase: {fileID: 0}
+  TargetSoldier: {fileID: 0}
 --- !u!195 &4832963776403345211
 NavMeshAgent:
   m_ObjectHideFlags: 0

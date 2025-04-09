@@ -15,7 +15,7 @@ public class Seedling : Enemy
         HP = MaxHP;
         V.Enemies.Add(gameObject);
         Talktime = 30;
-        timer = 30;
+        talktimer = 30;
     }
     // Update is called once per frame
     protected override void Update()

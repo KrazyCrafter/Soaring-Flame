@@ -19,10 +19,10 @@ public class Pod : Enemy
     }
     protected override void Update()
     {
-        timer += Time.deltaTime;
-        if(timer >= SpawnTime)
+        talktimer += Time.deltaTime;
+        if(talktimer >= SpawnTime)
         {
-            timer = 0;
+            talktimer = 0;
             Instantiate(Podling, transform.position, transform.rotation);
             if(Price > 0)
             {

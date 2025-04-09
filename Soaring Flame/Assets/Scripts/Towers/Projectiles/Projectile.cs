@@ -16,7 +16,7 @@ public class Projectile : MonoBehaviour
     }
     protected virtual void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Enemy")
+        if(collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Soldier")
         {
             bool Worked = false;
             int Counter = 0;

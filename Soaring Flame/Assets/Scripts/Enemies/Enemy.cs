@@ -4,107 +4,81 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
-public class Enemy : MonoBehaviour
+public class Enemy : Blob
 {
-    public float HP;
-    public float MaxHP;
     public float PriorityMultiplier;
-    public int Price;
-    public float PhysicalDamageRes; //Res is in a percent reduction
-    public float MagicDamageRes; //Res is in a percent reduction
-    public AudioSource[] VoiceLines;
-    protected float timer;
-    public float Talktime;
-    public AudioSource[] DeathLines;
     public GameObject EnemyBase;
-    public float Dmg;
-    public RectTransform BarTrans;
-    protected NavMeshAgent agent;
     public EnemySpawning HomeBase;
+    public GameObject TargetSoldier;
     // Start is called before the first frame update
-    protected virtual void Start()
+    protected override void Start()
     {
         EnemyBase = GameObject.FindGameObjectWithTag("Destination");
-        agent = GetComponent<NavMeshAgent>();
         HomeBase = GameObject.FindWithTag("EnemySpawn").GetComponent<EnemySpawning>();
-        Spawn();
+        base.Start();
     }
-    public virtual void Spawn() // Was thinking about setting up Object pooling for the enemies
+    public override void Spawn() // Was thinking about setting up Object pooling for the enemies
     {
         HomeBase.MaxEnemies++;
         agent.destination = EnemyBase.transform.position;
-        if (HP == 0)
-        {
-            HP = MaxHP;
-        }
         V.Enemies.Add(gameObject);
-        Talktime = 30;
-        timer = 30;
+        base.Spawn();
     }
-    protected virtual void Update()
+    protected override void Update()
     {
-        timer += Time.deltaTime;
-        if (timer >= Talktime)
+        if (V.Soldiers.Count > 0)
         {
-            timer = 0;
-            int RNG = Random.Range(0, 10);
-            if(RNG == 0 && VoiceLines.Length > 0)
+            TargetSoldier = FindTarget(V.Soldiers);
+        }
+            if (TargetSoldier != null)
             {
-                Talk();
+                targetDist = Vector3.Distance(TargetSoldier.transform.position, transform.position);
+                if(targetDist < Mathf.Max(AttackRange, TargetSoldier.GetComponent<Blob>().AttackRange))
+                {
+                    Attack(TargetSoldier);
+                }
+        
+            else if (targetDist < 5)
+            {
+                agent.destination = TargetSoldier.transform.position;
+            }
+            else
+            {
+               agent.destination = EnemyBase.transform.position;
             }
         }
+        else
+        {
+            agent.destination = EnemyBase.transform.position;
+        }
+
+        base.Update();
     }
     protected void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject == HomeBase)
+        if(other.gameObject == EnemyBase)
         {
-            V.BaseHealth -= Dmg;
-            if(V.BaseHealth < 0)
-            {
+            Attack(EnemyBase);
+        }
 
-                SceneManager.LoadScene("MainScene");
+    }
+    public override void Attack(GameObject Target)
+    {
+        if (Target == EnemyBase)
+        {
+            V.BaseHealth -= Dmg/AttackSpeed;
+            if (V.BaseHealth < 0)
+            {
+                SceneManager.LoadScene("MenuScene");
             }
             Destroy(gameObject);
         }
+        base.Attack(Target);
     }
-    public void Talk()
-    {
-        int selection = Random.Range(0, VoiceLines.Length);
-        VoiceLines[selection].Play();
-    }
-    public void TakeDamage(float Dmg, string DmgType)
-    {
-        if(DmgType == "Physical")
-        {
-            Dmg -= Dmg * PhysicalDamageRes;
-        }
-        else if(DmgType == "Magical")
-        {
-            Dmg -= Dmg * MagicDamageRes;
-        }
-        HP -= Dmg;
-        if(HP < 0)
-        {
-            Die();
-        }
-        else 
-        {
-            if (HP > MaxHP)
-            {
-                HP = MaxHP;
-            }
-            BarTrans.localScale = new Vector3(HP / MaxHP, 1, 1);
-        }
-    }
-    public virtual void Die() // Want to add in object pooling here later
+    public override void Die() // Want to add in object pooling here later
     {
         V.Enemies.Remove(gameObject);
         V.Coins += Price / 2;
-        if (DeathLines.Length > 0)
-        {
-            int RNG = Random.Range(0, DeathLines.Length);
-            DeathLines[RNG].Play();
-        }
-        Destroy(gameObject);
+        base.Die();
     }
 }

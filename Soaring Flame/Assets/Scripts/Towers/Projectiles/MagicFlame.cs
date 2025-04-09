@@ -11,7 +11,7 @@ public class MagicFlame : Projectile
     }
     protected void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Soldier")
         {
             bool Worked = false;
             int Counter = 0;
@@ -20,7 +20,7 @@ public class MagicFlame : Projectile
             {
                 try
                 {
-                    Obj.GetComponent<Enemy>().TakeDamage(Dmg, Type);
+                    Obj.GetComponent<Blob>().TakeDamage(Dmg, Type);
                     Worked = true;
                     if(Counter > 0)
                     {

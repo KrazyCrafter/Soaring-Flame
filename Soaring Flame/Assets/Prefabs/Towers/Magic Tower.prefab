@@ -259,6 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3343399266360802476}
   - component: {fileID: 8112201624439191662}
+  - component: {fileID: 1912612272443295607}
   m_Layer: 3
   m_Name: Magic Tower
   m_TagString: Untagged
@@ -309,10 +310,26 @@ MonoBehaviour:
   Weapon: {fileID: 7308866171924877969}
   turnSpeed: 20
   FireSound: {fileID: 0}
-  Damage: 15
+  Damage: 10
   Doing: 0
   Charged: 0
   partic: {fileID: 3442045756083298302, guid: 44f17324e7d793d47bfbe54adf5ce365, type: 3}
+--- !u!208 &1912612272443295607
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5299940255475526902}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 0.5, y: 1, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &7308866171924877969
 GameObject:
   m_ObjectHideFlags: 0

@@ -590,7 +590,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 25
   MaxHP: 25
-  PriorityMultiplier: 1
   Price: 5
   PhysicalDamageRes: 0
   MagicDamageRes: 0
@@ -603,10 +602,16 @@ MonoBehaviour:
   DeathLines:
   - {fileID: 7156405340529788495}
   - {fileID: 8898038430407888211}
-  EnemyBase: {fileID: 0}
   Dmg: 5
+  DamageType: Physical
+  AttackSpeed: 1
+  AttackRange: 1.1
   BarTrans: {fileID: 4951635643368310341}
+  targetDist: 0
+  PriorityMultiplier: 1
+  EnemyBase: {fileID: 0}
   HomeBase: {fileID: 0}
+  TargetSoldier: {fileID: 0}
 --- !u!195 &6662058442486844734
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1046,7 +1051,7 @@ RectTransform:
   m_GameObject: {fileID: 6839517151824877189}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.35714287, y: 1, z: 1}
+  m_LocalScale: {x: 0.14285715, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8288668967283901573}

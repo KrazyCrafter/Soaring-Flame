@@ -303,7 +303,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 40
   MaxHP: 40
-  PriorityMultiplier: 1
   Price: 60
   PhysicalDamageRes: 0
   MagicDamageRes: 1.5
@@ -316,10 +315,16 @@ MonoBehaviour:
   DeathLines:
   - {fileID: 375161776975199699}
   - {fileID: 7885595091788065015}
-  EnemyBase: {fileID: 0}
-  Dmg: 0
+  Dmg: 5
+  DamageType: Physical
+  AttackSpeed: 1
+  AttackTimer: 0
   BarTrans: {fileID: 6597298489133919942}
+  targetDist: 0
+  PriorityMultiplier: 1
+  EnemyBase: {fileID: 0}
   HomeBase: {fileID: 0}
+  TargetSoldier: {fileID: 0}
   Pod: {fileID: 5116284224166071011, guid: 2730f3920fb9bfa4cb255ab401b4eb1e, type: 3}
 --- !u!1 &2023960419525604320
 GameObject:

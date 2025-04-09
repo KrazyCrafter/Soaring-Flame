@@ -576,7 +576,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 15
   MaxHP: 15
-  PriorityMultiplier: 0.25
   Price: 1
   PhysicalDamageRes: -0.25
   MagicDamageRes: 0.75
@@ -589,10 +588,16 @@ MonoBehaviour:
   DeathLines:
   - {fileID: 6858915948164216174}
   - {fileID: 8305907376492156700}
-  EnemyBase: {fileID: 0}
-  Dmg: 2
+  Dmg: 1
+  DamageType: Physical
+  AttackSpeed: 0.8
+  AttackTimer: 0
   BarTrans: {fileID: 116751963206584438}
+  targetDist: 0
+  PriorityMultiplier: 0.25
+  EnemyBase: {fileID: 0}
   HomeBase: {fileID: 0}
+  TargetSoldier: {fileID: 0}
 --- !u!195 &40759572035928201
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -629,7 +634,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 15
   MaxHP: 15
-  PriorityMultiplier: 0.25
   Price: 1
   PhysicalDamageRes: -0.25
   MagicDamageRes: 0.75
@@ -642,10 +646,16 @@ MonoBehaviour:
   DeathLines:
   - {fileID: 6858915948164216174}
   - {fileID: 8305907376492156700}
-  EnemyBase: {fileID: 0}
   Dmg: 0
+  DamageType: 
+  AttackSpeed: 0
+  AttackTimer: 0
   BarTrans: {fileID: 0}
+  targetDist: 0
+  PriorityMultiplier: 0.25
+  EnemyBase: {fileID: 0}
   HomeBase: {fileID: 0}
+  TargetSoldier: {fileID: 0}
   GrowthTime: 30
   GrowthTimer: 0
   Podmother: {fileID: 1312435427770467803, guid: 76d13da15ca87ee4e881a5d61ed9576c, type: 3}

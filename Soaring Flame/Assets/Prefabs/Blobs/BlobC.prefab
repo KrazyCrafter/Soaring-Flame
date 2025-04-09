@@ -716,7 +716,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 35
   MaxHP: 35
-  PriorityMultiplier: 0.75
   Price: 15
   PhysicalDamageRes: 0
   MagicDamageRes: 0
@@ -725,9 +724,16 @@ MonoBehaviour:
   DeathLines:
   - {fileID: 6459182092456898678}
   - {fileID: 7270068453691814400}
-  EnemyBase: {fileID: 0}
-  Dmg: 5
+  Dmg: 7.5
+  DamageType: 
+  AttackSpeed: 1.5
+  AttackRange: 1.6
   BarTrans: {fileID: 4951635643368310341, guid: c99441523b62491428394bb0521eb838, type: 3}
+  targetDist: 0
+  PriorityMultiplier: 0.75
+  EnemyBase: {fileID: 0}
+  HomeBase: {fileID: 0}
+  TargetSoldier: {fileID: 0}
 --- !u!54 &-2325163839339572297
 Rigidbody:
   m_ObjectHideFlags: 0
