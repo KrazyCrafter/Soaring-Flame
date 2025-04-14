@@ -9,6 +9,10 @@ TagManager:
   - EnemySpawn
   - Placable
   - Soldier
+  - PauseMenu
+  - ingameSettings
+  - menusettings
+  - menucredits
   layers:
   - Default
   - TransparentFX
