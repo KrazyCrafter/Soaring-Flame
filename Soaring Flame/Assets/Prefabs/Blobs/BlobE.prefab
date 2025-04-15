@@ -509,7 +509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 40
   MaxHP: 40
-  Price: 5
+  Price: 15
   PhysicalDamageRes: 0.25
   MagicDamageRes: 0
   VoiceLines:

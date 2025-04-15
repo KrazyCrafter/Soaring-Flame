@@ -103,8 +103,6 @@ public class Blob : MonoBehaviour
     }
     public virtual void Die() // Want to add in object pooling here later
     {
-        V.Enemies.Remove(gameObject);
-        V.Coins += Price / 2;
         if (DeathLines.Length > 0)
         {
             int RNG = UnityEngine.Random.Range(0, DeathLines.Length);

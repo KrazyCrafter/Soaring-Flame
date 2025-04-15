@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class PlayerMover : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class PlayerMover : MonoBehaviour
     private Transform playerTransform;
     private Rigidbody playerRigidbody;
 
+    public TextMeshProUGUI CoinCounter;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +36,7 @@ public class PlayerMover : MonoBehaviour
         Movement();
         Rotation();
         CheckPlayerPosition();
+        CoinCounter.text = "$:" + V.Coins;
     }
 
     private void CheckPlayerPosition()

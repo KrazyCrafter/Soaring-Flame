@@ -30,21 +30,20 @@ public class Enemy : Blob
         {
             TargetSoldier = FindTarget(V.Soldiers);
         }
-            if (TargetSoldier != null)
+        if (TargetSoldier != null)
+        {
+            targetDist = Vector3.Distance(TargetSoldier.transform.position, transform.position);
+            if (targetDist < Mathf.Max(AttackRange, TargetSoldier.GetComponent<Blob>().AttackRange))
             {
-                targetDist = Vector3.Distance(TargetSoldier.transform.position, transform.position);
-                if(targetDist < Mathf.Max(AttackRange, TargetSoldier.GetComponent<Blob>().AttackRange))
-                {
-                    Attack(TargetSoldier);
-                }
-        
+                Attack(TargetSoldier);
+            }
             else if (targetDist < 5)
             {
                 agent.destination = TargetSoldier.transform.position;
             }
             else
             {
-               agent.destination = EnemyBase.transform.position;
+                agent.destination = EnemyBase.transform.position;
             }
         }
         else

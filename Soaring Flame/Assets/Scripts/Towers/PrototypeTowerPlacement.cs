@@ -6,9 +6,11 @@ using UnityEngine.UI;
 public class PrototypeTowerPlacement : MonoBehaviour
 {
     public GameObject RapiBlaster;
+    public GameObject Knight;
     public Transform SelectTile;
     public Vector3 PlacePos;
     public Quaternion PlaceTurn;
+    public Transform HomeBase;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,5 +37,10 @@ public class PrototypeTowerPlacement : MonoBehaviour
                 }
             }
         }
+    }
+    public void SpawnSoldier()
+    {
+        Instantiate(Knight, HomeBase.position, HomeBase.rotation);
+        V.Coins -= 15;
     }
 }

@@ -8,6 +8,7 @@ public class Soldier : Blob
 {
     public GameObject TargetBlob;
     public Vector3 HomeBase;
+    public float HealTimer;
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -34,11 +35,20 @@ public class Soldier : Blob
             {
                 Attack(TargetBlob);
             }
+            else if (targetDist > 10)
+            {
+                HealTimer += Time.deltaTime;
+            }
             agent.destination = TargetBlob.transform.position;
         }
         else
         {
             agent.destination = HomeBase;
+        }
+        if (HealTimer >= 10)
+        {
+            HealTimer = 0;
+            TakeDamage(-10, "Magical");
         }
         base.Update();
     }

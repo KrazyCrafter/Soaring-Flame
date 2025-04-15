@@ -29,6 +29,7 @@ public class EnemySpawning : MonoBehaviour
     {
         MaxEnemies = 0;
         Coins += WaveBudgets[V.Wave];
+        V.Coins += Mathf.Min(100, WaveBudgets[V.Wave]);
         V.Wave++;
         int Counter = 0;
         if (V.Wave == 1)
