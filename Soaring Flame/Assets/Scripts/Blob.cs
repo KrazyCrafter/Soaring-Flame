@@ -60,7 +60,7 @@ public class Blob : MonoBehaviour
     {
         if(AttackTimer >= AttackSpeed)
         {
-            AttackTimer -= AttackSpeed;
+            AttackTimer = 0;
             //Play attack animation(Needs to be added)
             try
             {
@@ -68,7 +68,7 @@ public class Blob : MonoBehaviour
             }
             catch (NullReferenceException)
             {
-                Debug.Log("Non Blob enemy getting attacked");
+                Debug.Log("Non-Blob entity getting attacked");
             }
         }
     }

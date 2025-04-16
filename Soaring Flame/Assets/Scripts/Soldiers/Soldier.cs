@@ -30,16 +30,7 @@ public class Soldier : Blob
         }
         if (TargetBlob != null)
         {
-            targetDist = Vector3.Distance(TargetBlob.transform.position, transform.position);
-            if (targetDist < Mathf.Max(AttackRange, TargetBlob.GetComponent<Blob>().AttackRange))
-            {
-                Attack(TargetBlob);
-            }
-            else if (targetDist > 10)
-            {
-                HealTimer += Time.deltaTime;
-            }
-            agent.destination = TargetBlob.transform.position;
+            ApproachBlob();
         }
         else
         {
@@ -100,5 +91,18 @@ public class Soldier : Blob
             Debug.Log(gameObject.name + " Is tracking dead entity");
             return closest;
         }
+    }
+    public virtual void ApproachBlob()
+    {
+        targetDist = Vector3.Distance(TargetBlob.transform.position, transform.position);
+        if (targetDist < Mathf.Max(AttackRange, TargetBlob.GetComponent<Blob>().AttackRange))
+        {
+            Attack(TargetBlob);
+        }
+        else if (targetDist > 10)
+        {
+            HealTimer += Time.deltaTime;
+        }
+        agent.destination = TargetBlob.transform.position;
     }
 }

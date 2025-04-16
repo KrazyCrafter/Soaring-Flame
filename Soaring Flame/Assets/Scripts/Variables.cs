@@ -13,5 +13,6 @@ public static class V
 
     public static int Wave;
     public static int Coins;
+    public static int Pops;
     public static float BaseHealth;
 }

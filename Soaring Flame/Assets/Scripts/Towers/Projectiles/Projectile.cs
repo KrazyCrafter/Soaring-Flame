@@ -7,7 +7,7 @@ public class Projectile : MonoBehaviour
     public float Dmg;
     public string Type;
     protected Rigidbody Rb;
-    public void Spawn(float damage, float force)
+    public virtual void Spawn(float damage, float force)
     {
         Dmg = damage;
         Rb = gameObject.GetComponent<Rigidbody>();

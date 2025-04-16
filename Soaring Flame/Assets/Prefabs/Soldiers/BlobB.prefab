@@ -201,7 +201,7 @@ MonoBehaviour:
   HP: 25
   MaxHP: 25
   Price: 0
-  PhysicalDamageRes: 0
+  PhysicalDamageRes: 0.1
   MagicDamageRes: 0
   VoiceLines: []
   Talktime: 30
@@ -214,6 +214,7 @@ MonoBehaviour:
   targetDist: 0
   TargetBlob: {fileID: 0}
   HomeBase: {x: 0, y: 0, z: 0}
+  HealTimer: 0
 --- !u!195 &2179247710105119247
 NavMeshAgent:
   m_ObjectHideFlags: 0
