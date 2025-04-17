@@ -21,6 +21,8 @@ public class PlayerMover : MonoBehaviour
     private Rigidbody playerRigidbody;
 
     public TextMeshProUGUI CoinCounter;
+    public TextMeshProUGUI PopCounter;
+    public Transform HealthBar;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,8 @@ public class PlayerMover : MonoBehaviour
         Rotation();
         CheckPlayerPosition();
         CoinCounter.text = "$:" + V.Coins;
+        PopCounter.text = "Pops:" + V.Pops;
+        HealthBar.localScale = new UnityEngine.Vector3 (V.BaseHealth / 200f,1,1);
     }
 
     private void CheckPlayerPosition()

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PrototypeTowerPlacement : MonoBehaviour
+public class TowerPlacement : MonoBehaviour
 {
     public GameObject RapiBlaster;
     public GameObject CannonTower;
@@ -16,7 +16,11 @@ public class PrototypeTowerPlacement : MonoBehaviour
     public Quaternion PlaceTurn;
     public Transform HomeBase;
     public float PopTimer;
+
     public string SelectedButton;
+    public GameObject ChoseTurret;
+    public GameObject ChoseCannon;
+    public GameObject ChoseMagic;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,8 +43,24 @@ public class PrototypeTowerPlacement : MonoBehaviour
                 Debug.Log("You selected " + SelectTile.tag + " At " + SelectTile.position.x + ", " + SelectTile.position.y + ", " + SelectTile.position.z + ", "); //check what you clicked
                 if (SelectTile.tag == "Placable")
                 {
-                    Instantiate(RapiBlaster, PlacePos, PlaceTurn);
-                    Destroy(SelectTile.gameObject);
+                    if(SelectedButton == "Turret" && V.Coins >= 100)
+                    {
+                        V.Coins -= 100;
+                        Instantiate(RapiBlaster, PlacePos, PlaceTurn);
+                        Destroy(SelectTile.gameObject);
+                    }
+                    if (SelectedButton == "Cannon" && V.Coins >= 100)
+                    {
+                        V.Coins -= 100;
+                        Instantiate(CannonTower, PlacePos, PlaceTurn);
+                        Destroy(SelectTile.gameObject);
+                    }
+                    if (SelectedButton == "Magic" && V.Coins >= 120)
+                    {
+                        V.Coins -= 120;
+                        Instantiate(MageTower, PlacePos, PlaceTurn);
+                        Destroy(SelectTile.gameObject);
+                    }
                 }
             }
         }
@@ -68,5 +88,33 @@ public class PrototypeTowerPlacement : MonoBehaviour
             V.Coins -= 15;
             V.Pops--;
         }
-    }   
+    }
+    public void ChooseTower(string Clicked)
+    {
+        if(SelectedButton == "Turret")
+        {
+            ChoseTurret.SetActive(false);
+        }
+        else if (SelectedButton == "Cannon")
+        {
+            ChoseCannon.SetActive(false);
+        }
+        else if (SelectedButton == "Magic")
+        {
+            ChoseMagic.SetActive(false);
+        }
+        SelectedButton = Clicked;
+        if (SelectedButton == "Turret")
+        {
+            ChoseTurret.SetActive(true);
+        }
+        else if (SelectedButton == "Cannon")
+        {
+            ChoseCannon.SetActive(true);
+        }
+        else if (SelectedButton == "Magic")
+        {
+            ChoseMagic.SetActive(true);
+        }
+    }
 }

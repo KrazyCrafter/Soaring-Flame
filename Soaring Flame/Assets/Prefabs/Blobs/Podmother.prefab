@@ -318,7 +318,7 @@ MonoBehaviour:
   Dmg: 5
   DamageType: Physical
   AttackSpeed: 1
-  AttackTimer: 0
+  AttackRange: 0
   BarTrans: {fileID: 6597298489133919942}
   targetDist: 0
   PriorityMultiplier: 1
@@ -1216,7 +1216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6788743285050790494
 RectTransform:
   m_ObjectHideFlags: 0

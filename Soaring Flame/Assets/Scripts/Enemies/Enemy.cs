@@ -65,14 +65,17 @@ public class Enemy : Blob
     {
         if (Target == EnemyBase)
         {
-            V.BaseHealth -= Dmg/AttackSpeed;
+            V.BaseHealth -= Dmg / AttackSpeed;
             if (V.BaseHealth < 0)
             {
                 SceneManager.LoadScene("MenuScene");
             }
             Destroy(gameObject);
         }
-        base.Attack(Target);
+        else
+        {
+            base.Attack(Target);
+        }
     }
     public override void Die() // Want to add in object pooling here later
     {

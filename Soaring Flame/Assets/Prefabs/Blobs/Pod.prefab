@@ -399,17 +399,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 30
   MaxHP: 30
-  PriorityMultiplier: 0.33
   Price: 15
   PhysicalDamageRes: 0
   MagicDamageRes: 1
   VoiceLines: []
   Talktime: 0
   DeathLines: []
-  EnemyBase: {fileID: 0}
   Dmg: 0
+  DamageType: 
+  AttackSpeed: 0
+  AttackRange: 0
   BarTrans: {fileID: 4461969577534431308}
+  targetDist: 0
+  PriorityMultiplier: 0.33
+  EnemyBase: {fileID: 0}
   HomeBase: {fileID: 0}
+  TargetSoldier: {fileID: 0}
   SpawnTime: 5
   Podling: {fileID: 5116284224166071011, guid: 2730f3920fb9bfa4cb255ab401b4eb1e, type: 3}
 --- !u!208 &6042350307332610296
@@ -629,7 +634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &272651934168907266
 RectTransform:
   m_ObjectHideFlags: 0
