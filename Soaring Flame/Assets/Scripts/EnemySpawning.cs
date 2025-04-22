@@ -14,6 +14,8 @@ public class EnemySpawning : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Coins = 0;
+        V.Enemies.Clear();
         StartWave();
     }
 

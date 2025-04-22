@@ -11,7 +11,15 @@ public class Seedling : Enemy
     public GameObject Podmother;
     public override void Spawn() // Was thinking about setting up Object pooling for the enemies
     {
-        agent.destination = EnemyBase.transform.position;
+        try
+        {
+            agent.destination = EnemyBase.transform.position;
+        }
+        catch(System.Exception e)
+        {
+            Debug.Log(e);
+            Die();
+        }
         HP = MaxHP;
         V.Enemies.Add(gameObject);
         Talktime = 30;

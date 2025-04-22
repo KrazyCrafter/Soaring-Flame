@@ -34,10 +34,13 @@ public class CannonBall : Projectile
         List<GameObject> Colateral = new List<GameObject>();
         foreach (GameObject go in V.Enemies)
         {
-            float Dist = Vector3.Distance(go.transform.position, transform.position);
-            if (Dist < ExplodeRadius)
+            if (go != null)
             {
-                Colateral.Add(go);
+                float Dist = Vector3.Distance(go.transform.position, transform.position);
+                if (Dist < ExplodeRadius)
+                {
+                    Colateral.Add(go);
+                }
             }
         }
         for(int i = 0; i < Colateral.Count; i++)

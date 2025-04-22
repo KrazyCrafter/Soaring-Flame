@@ -250,7 +250,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 2.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -325,7 +325,7 @@ MonoBehaviour:
   EnemyBase: {fileID: 0}
   HomeBase: {fileID: 0}
   TargetSoldier: {fileID: 0}
-  Pod: {fileID: 5116284224166071011, guid: 2730f3920fb9bfa4cb255ab401b4eb1e, type: 3}
+  Pod: {fileID: 5699741332619137595, guid: acd932813dd456048bb4278d91f3160a, type: 3}
 --- !u!1 &2023960419525604320
 GameObject:
   m_ObjectHideFlags: 0

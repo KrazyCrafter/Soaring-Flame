@@ -53,7 +53,14 @@ public class Archer : Soldier
     public override void Attack(GameObject Target)
     {
         Vector3 TargetPos = Target.transform.position;
-        TargetPos.y += Target.GetComponent<NavMeshAgent>().height;
+        try
+        {
+            TargetPos.y += Target.GetComponent<NavMeshAgent>().height;
+        }
+        catch (MissingReferenceException)
+        {
+            TargetPos.y += 1;
+        }
         Quaternion lastPos = Quaternion.LookRotation(TargetPos);
         transform.rotation = Quaternion.Slerp(transform.rotation, lastPos, Time.deltaTime * 30);
         SpawnSpot.transform.rotation = Quaternion.Slerp(SpawnSpot.transform.rotation, lastPos, Time.deltaTime * 30);

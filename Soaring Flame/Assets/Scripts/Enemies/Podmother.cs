@@ -9,7 +9,9 @@ public class Podmother : Enemy
     public override void Die() // Want to add in object pooling here later
     {
         V.Enemies.Remove(gameObject);
-        GameObject Summon = Instantiate(Pod, transform.position, transform.rotation) as GameObject;
+        Vector3 SpawnSpot = transform.position;
+        SpawnSpot.y += 1.7f;
+        GameObject Summon = Instantiate(Pod, SpawnSpot, transform.rotation) as GameObject;
         Destroy(gameObject);
     }
 }

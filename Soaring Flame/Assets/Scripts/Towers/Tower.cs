@@ -153,6 +153,10 @@ public class Tower : MonoBehaviour
         catch (NullReferenceException)
         {
             Debug.Log("Tracking dead enemy");
+            if (V.Enemies[0] == null)
+            {
+                V.Enemies.Remove(V.Enemies[0]);
+            }
             return null;
         }
     }

@@ -58,6 +58,10 @@ public class Blob : MonoBehaviour
     }
     public virtual void Attack(GameObject Target)
     {
+        if(Target == null)
+        {
+            return;
+        }
         if(AttackTimer >= AttackSpeed)
         {
             AttackTimer = 0;
@@ -74,8 +78,12 @@ public class Blob : MonoBehaviour
     }
     public void Talk()
     {
-        int selection = UnityEngine.Random.Range(0, VoiceLines.Length);
-        VoiceLines[selection].Play();
+        int RNG = UnityEngine.Random.Range(0, V.Enemies.Count/2);
+        if (RNG == 0)
+        {
+            int selection = UnityEngine.Random.Range(0, VoiceLines.Length);
+            VoiceLines[selection].Play();
+        }
     }
     public virtual void TakeDamage(float Dmg, string DmgType)
     {

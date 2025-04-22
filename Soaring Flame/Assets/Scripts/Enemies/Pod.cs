@@ -19,6 +19,10 @@ public class Pod : Enemy
     }
     protected override void Update()
     {
+        if(transform.position.y < -10)
+        {
+            Die();
+        }
         talktimer += Time.deltaTime;
         if(talktimer >= SpawnTime)
         {

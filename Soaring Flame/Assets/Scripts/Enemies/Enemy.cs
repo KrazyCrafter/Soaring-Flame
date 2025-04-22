@@ -70,6 +70,7 @@ public class Enemy : Blob
             {
                 SceneManager.LoadScene("MenuScene");
             }
+            V.Enemies.Remove(gameObject);
             Destroy(gameObject);
         }
         else

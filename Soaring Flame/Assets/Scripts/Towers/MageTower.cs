@@ -17,6 +17,7 @@ public class MageTower : Tower
         //FireSound.Play();
         AttackSpot = Target.transform;
         GameObject Flame = Instantiate(Projectile, AttackSpot.position, Quaternion.identity) as GameObject;
+        Flame.transform.Rotate(-90, 0, 0);
         Flame.GetComponent<MagicFlame>().Spawn(Damage);
         Vector3 from = Weapon.transform.position;
         Vector3 to = AttackSpot.transform.position;

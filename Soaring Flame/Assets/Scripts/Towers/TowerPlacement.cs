@@ -25,7 +25,7 @@ public class TowerPlacement : MonoBehaviour
     void Start()
     {
         V.Coins = 100;
-        V.Pops = 10;
+        V.Pops = 5;
     }
 
     // Update is called once per frame
@@ -64,8 +64,15 @@ public class TowerPlacement : MonoBehaviour
                 }
             }
         }
-        PopTimer += Time.deltaTime;
-        if (PopTimer > 10)
+        if (V.Coins >= 1000)
+        {
+            PopTimer += V.Coins / 1000 * Time.deltaTime;
+        }
+        else
+        {
+            PopTimer += Time.deltaTime;
+        }
+        if (PopTimer > 10 + V.Pops)
         {
             PopTimer = 0;
             V.Pops++;
