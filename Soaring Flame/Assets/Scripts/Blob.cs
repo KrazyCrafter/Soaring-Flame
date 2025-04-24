@@ -28,6 +28,10 @@ public class Blob : MonoBehaviour
     {
         agent = GetComponent<NavMeshAgent>();
         Spawn();
+        if(V.Level == "Mountain")
+        {
+            agent.speed *= .75f;
+        }
     }
     public virtual void Spawn()
     {

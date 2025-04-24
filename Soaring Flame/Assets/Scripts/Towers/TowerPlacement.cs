@@ -66,11 +66,25 @@ public class TowerPlacement : MonoBehaviour
         }
         if (V.Coins >= 1000)
         {
-            PopTimer += V.Coins / 1000 * Time.deltaTime;
+            if(V.Level == "Desert")
+            {
+                PopTimer += (V.Coins / 2000) * Time.deltaTime;
+            }
+            else
+            {
+                PopTimer += (V.Coins / 1000) * Time.deltaTime;
+            }
         }
         else
         {
-            PopTimer += Time.deltaTime;
+            if (V.Level == "Desert")
+            {
+                PopTimer += Time.deltaTime / 2;
+            }
+            else
+            {
+                PopTimer += Time.deltaTime;
+            }
         }
         if (PopTimer > 10 + V.Pops)
         {

@@ -34,9 +34,11 @@ public class MainMenu : MonoBehaviour
         ActiveMenu = mainMenu;
         ActiveMenu.SetActive(true);
     }
-    public void PlayGame()
+    public void PlayGame(string level)
     {
+        V.Level = level;
         V.BaseHealth = 200;
+        V.Wave = 0;
         SceneManager.LoadScene("SampleScene");
     }
 }

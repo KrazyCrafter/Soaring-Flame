@@ -30,7 +30,14 @@ public class EnemySpawning : MonoBehaviour
     public void StartWave()
     {
         MaxEnemies = 0;
-        Coins += WaveBudgets[V.Wave];
+        if (V.Level == "Desert")
+        {
+            Coins += Mathf.RoundToInt(WaveBudgets[V.Wave] * .75f);
+        }
+        else
+        {
+            Coins += WaveBudgets[V.Wave];
+        }
         V.Coins += Mathf.Min(100, WaveBudgets[V.Wave]);
         V.Wave++;
         int Counter = 0;

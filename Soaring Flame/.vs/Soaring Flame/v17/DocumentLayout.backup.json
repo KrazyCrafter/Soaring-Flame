@@ -3,19 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\soldiers\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soldiers\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\enemyspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\towers\\towerplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\towerplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\towers\\magetower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\magetower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\blob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\blob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\enemies\\pod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\towers\\towerplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\towerplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\soldiers\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soldiers\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\enemies\\pod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\pod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\tower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\towers\\magetower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\magetower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\towers\\projectiles\\cannonball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\projectiles\\cannonball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,16 +59,8 @@
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\enemyspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyspawning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\soldiers\\soldier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soldiers\\soldier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,37 +70,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "Variables.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Variables.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Variables.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Variables.cs",
               "RelativeToolTip": "Assets\\Scripts\\Variables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:26:55.369Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T22:09:55.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Archer.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Soldiers\\Archer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Soldiers\\Archer.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Soldiers\\Archer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Soldiers\\Archer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD0AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwD0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T15:10:50.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Pod.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Enemies\\Pod.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Pod.cs",
@@ -104,12 +122,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\Pod.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T20:36:19.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T20:36:19.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Podmother.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Enemies\\Podmother.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Podmother.cs",
@@ -121,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Seedling.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Enemies\\Seedling.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Seedling.cs",
@@ -133,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Tower.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\Tower.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\Tower.cs",
@@ -145,19 +162,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "MageTower.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\MageTower.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\MageTower.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\MageTower.cs",
               "RelativeToolTip": "Assets\\Scripts\\Towers\\MageTower.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T18:56:49.204Z"
+              "WhenOpened": "2025-04-21T18:56:49.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Enemies\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Enemy.cs",
@@ -169,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "CannonBall.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\Projectiles\\CannonBall.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\Projectiles\\CannonBall.cs",
@@ -181,19 +199,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "EnemySpawning.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\EnemySpawning.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawning.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\EnemySpawning.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemySpawning.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T18:40:17.914Z"
+              "WhenOpened": "2025-04-21T18:40:17.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Soldier.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Soldiers\\Soldier.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Soldiers\\Soldier.cs",
@@ -205,20 +224,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "TowerPlacement.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\TowerPlacement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\TowerPlacement.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\TowerPlacement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Towers\\TowerPlacement.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowEgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAEoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:30:26.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "CameraMover.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\CameraMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraMover.cs",
@@ -230,13 +249,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Blob.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Blob.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Blob.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Blob.cs",
               "RelativeToolTip": "Assets\\Scripts\\Blob.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAwwE8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:26:00.419Z",
               "EditorCaption": ""

@@ -10,6 +10,10 @@ public class MageTower : Tower
     {
         V.MageCount++;
         base.Start();
+        if(V.Level == "Mountain")
+        {
+            Damage *= .75f;
+        }
     }
     protected override void Attack()
     {

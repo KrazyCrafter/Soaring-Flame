@@ -15,4 +15,5 @@ public static class V
     public static int Coins;
     public static int Pops;
     public static float BaseHealth;
+    public static string Level;
 }
