@@ -66,6 +66,7 @@ public class TowerPlacement : MonoBehaviour
         }
         if (V.Coins >= 1000)
         {
+<<<<<<< Updated upstream
             if(V.Level == "Desert")
             {
                 PopTimer += (V.Coins / 2000) * Time.deltaTime;
@@ -73,13 +74,28 @@ public class TowerPlacement : MonoBehaviour
             else
             {
                 PopTimer += (V.Coins / 1000) * Time.deltaTime;
+=======
+            if (V.ActiveScene == "DesertScene")
+            {
+                PopTimer += V.Coins / 2000 * Time.deltaTime;
+            }
+            else
+            {
+                PopTimer += V.Coins / 1000 * Time.deltaTime;
+>>>>>>> Stashed changes
             }
         }
         else
         {
+<<<<<<< Updated upstream
             if (V.Level == "Desert")
             {
                 PopTimer += Time.deltaTime / 2;
+=======
+            if (V.ActiveScene == "DesertScene")
+            {
+                PopTimer += Time.deltaTime/2;
+>>>>>>> Stashed changes
             }
             else
             {

@@ -10,9 +10,15 @@ public class MageTower : Tower
     {
         V.MageCount++;
         base.Start();
+<<<<<<< Updated upstream
         if(V.Level == "Mountain")
         {
             Damage *= .75f;
+=======
+        if(V.ActiveScene == "MountainScene")
+        {
+            Damage -= Damage * .15f;
+>>>>>>> Stashed changes
         }
     }
     protected override void Attack()

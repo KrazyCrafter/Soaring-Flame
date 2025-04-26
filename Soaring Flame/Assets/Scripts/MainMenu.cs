@@ -34,11 +34,20 @@ public class MainMenu : MonoBehaviour
         ActiveMenu = mainMenu;
         ActiveMenu.SetActive(true);
     }
+<<<<<<< Updated upstream
     public void PlayGame(string level)
+=======
+    public void PlayGame(string Scene)
+>>>>>>> Stashed changes
     {
         V.Level = level;
         V.BaseHealth = 200;
+<<<<<<< Updated upstream
         V.Wave = 0;
         SceneManager.LoadScene("SampleScene");
+=======
+        V.ActiveScene = Scene;
+        SceneManager.LoadScene(Scene);
+>>>>>>> Stashed changes
     }
 }

@@ -30,9 +30,15 @@ public class EnemySpawning : MonoBehaviour
     public void StartWave()
     {
         MaxEnemies = 0;
+<<<<<<< Updated upstream
         if (V.Level == "Desert")
         {
             Coins += Mathf.RoundToInt(WaveBudgets[V.Wave] * .75f);
+=======
+        if(V.ActiveScene == "DesertScene")
+        {
+            Coins += Mathf.RoundToInt(WaveBudgets[V.Wave] * .85f);
+>>>>>>> Stashed changes
         }
         else
         {

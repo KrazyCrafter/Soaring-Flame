@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.AI;
-
 public class Blob : MonoBehaviour
 {
     public float HP;
@@ -27,6 +27,10 @@ public class Blob : MonoBehaviour
     protected virtual void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        if(V.ActiveScene == "MountainScene")
+        {
+            agent.speed *= .75f;
+        }
         Spawn();
         if(V.Level == "Mountain")
         {

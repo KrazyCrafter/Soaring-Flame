@@ -15,18 +15,34 @@
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\magetower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\towers\\magetower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\magetower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\blob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\blob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\towers\\towerplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towers\\towerplacement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
+=======
+      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|c:\\users\\camden\\documents\\github\\soaring-flame\\soaring flame\\assets\\scripts\\soldiers\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soldiers\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\enemies\\seedling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\seedling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CDF10B0-0C51-8374-5AA2-94EAC0E0ECF5}|Assembly-CSharp.csproj|C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\assets\\scripts\\enemies\\podmother.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -80,7 +92,11 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Variables.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Variables.cs",
               "RelativeToolTip": "Assets\\Scripts\\Variables.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:26:55.369Z",
               "IsPinned": true,
@@ -88,33 +104,55 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 4,
+>>>>>>> Stashed changes
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\MainMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T22:09:55.287Z",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:21:26.387Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 7,
+>>>>>>> Stashed changes
               "Title": "Archer.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Soldiers\\Archer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Soldiers\\Archer.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Soldiers\\Archer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Soldiers\\Archer.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAQAAAAAAAAAAAAQwD0AAAAdAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwD0AAAAdAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T15:10:50.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 7,
+=======
+              "DocumentIndex": 8,
+>>>>>>> Stashed changes
               "Title": "Pod.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Enemies\\Pod.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Pod.cs",
@@ -138,7 +176,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
+=======
+              "DocumentIndex": 9,
+>>>>>>> Stashed changes
               "Title": "Seedling.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Enemies\\Seedling.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Seedling.cs",
@@ -168,14 +210,22 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\MageTower.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\MageTower.cs",
               "RelativeToolTip": "Assets\\Scripts\\Towers\\MageTower.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:56:49.204Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 9,
+=======
+              "DocumentIndex": 6,
+>>>>>>> Stashed changes
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Enemies\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Enemy.cs",
@@ -183,7 +233,8 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\Enemy.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T18:53:55.144Z"
+              "WhenOpened": "2025-04-21T18:53:55.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -205,7 +256,11 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawning.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\EnemySpawning.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemySpawning.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwCYAAAApAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABCAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:40:17.914Z",
               "EditorCaption": ""
@@ -230,7 +285,11 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Towers\\TowerPlacement.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Towers\\TowerPlacement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Towers\\TowerPlacement.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAIAAAAAAAAAAAAAAEoAAAA+AAAAAAAAAA==",
+=======
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEQAAAAvAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:30:26.833Z",
               "EditorCaption": ""
@@ -255,7 +314,11 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Blob.cs",
               "ToolTip": "C:\\Users\\Camden\\Documents\\GitHub\\Soaring-Flame\\Soaring Flame\\Assets\\Scripts\\Blob.cs",
               "RelativeToolTip": "Assets\\Scripts\\Blob.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAIAAAAAAAAAAAAQwCEAAAAJAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:26:00.419Z",
               "EditorCaption": ""

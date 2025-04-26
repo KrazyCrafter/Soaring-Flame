@@ -15,5 +15,9 @@ public static class V
     public static int Coins;
     public static int Pops;
     public static float BaseHealth;
+<<<<<<< Updated upstream
     public static string Level;
+=======
+    public static string ActiveScene;
+>>>>>>> Stashed changes
 }
